@@ -93,7 +93,7 @@ class TaskData(object):
             if is_train:
                 target = row[2:]
             else:
-                target = [-1, -1, -1, -1, -1, -1, -1, -1]
+                target = [-1, -1, -1, -1, -1, -1, -1]
             sentence = str(row[1])
             number = str(row[0])
             if preprocessor:

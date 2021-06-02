@@ -186,14 +186,14 @@ def run_test(args):
     df1 = pd.DataFrame(ids,index=None)
     df2 = pd.DataFrame(result,index=None)
     all_df = pd.concat([df1, df2],axis=1)
-    all_df.columns = ['id', 'IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op']
+    all_df.columns = ['id', 'IF', 'SHF', 'CD', 'Ch', 'SF', 'SM', 'Op']
 
     all_df['IF'] = all_df['IF'].apply(lambda x: 1 if x>0.5 else 0)
     all_df['SHF'] = all_df['SHF'].apply(lambda x: 1 if x>0.5 else 0)
     all_df['CD'] = all_df['CD'].apply(lambda x: 1 if x>0.5 else 0)
     all_df['Ch'] = all_df['Ch'].apply(lambda x: 1 if x>0.5 else 0)
     all_df['SF'] = all_df['SF'].apply(lambda x: 1 if x>0.5 else 0)
-    all_df['EF'] = all_df['EF'].apply(lambda x: 1 if x>0.5 else 0)
+    # all_df['EF'] = all_df['EF'].apply(lambda x: 1 if x>0.5 else 0)
     all_df['SM'] = all_df['SM'].apply(lambda x: 1 if x>0.5 else 0)
     all_df['Op'] = all_df['Op'].apply(lambda x: 1 if x>0.5 else 0)
 

@@ -25,7 +25,7 @@ def change_data():
     final_lst = []
     for line in chain(in_file):
         #org_lst = ['质押','股份股权转让','起诉','投资','减持','收购','判决']
-        org_lst = ['IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op']
+        org_lst = ['IF', 'SHF', 'CD', 'Ch', 'SF', 'SM', 'Op']
         line = line.strip()
         line = json.loads(line)
         #print(line)
@@ -52,7 +52,7 @@ def get_cls_train_data():
     final_lst = change_data()
     df = pd.DataFrame()
     df = df.append(final_lst,ignore_index=True)
-    df.columns = ['id', 'content', 'IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op']
+    df.columns = ['id', 'content', 'IF', 'SHF', 'CD', 'Ch', 'SF', 'SM', 'Op']
     df.to_csv('dataset/train_sample.csv', index=0)
     print('分类模型训练集已转换完成！')
     

@@ -55,7 +55,7 @@ class BertProcessor(object):
 
     def get_labels(self):
         """Gets the list of labels for this data set."""
-        return ['IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op']
+        return ['IF', 'SHF', 'CD', 'Ch', 'SF', 'SM', 'Op']
 
     @classmethod
     def read_data(cls, input_file,quotechar = None):

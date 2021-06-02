@@ -69,7 +69,7 @@ def parse_arguments_t(parser):
     parser.add_argument('--model_folder', type=str, default="saved_model", help="The name to save the model files")
     parser.add_argument('--device_num', type=str, default='0', help="The gpu number you want to use")
 
-    parser.add_argument('--type', type=str, default="", choices=['IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op'],
+    parser.add_argument('--type', type=str, default="", choices=['IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op', ''],
                         help="GPU/CPU devices")
 
     args = parser.parse_args()
@@ -599,13 +599,13 @@ def main_predict():
                     cls_dict[ids].append(data_type)
     # 分模型进行预测
     lst = []
-    for suffix in ['IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op']:
+    for suffix in ['IF', 'SHF', 'CD', 'Ch', 'SF', 'SM', 'Op']:
         if suffix == 'EF':
             continue  # TODO 这里EF类别样本太少，无法使用模型训练，尝试用规则处理
         # read tests
         logging.info("\n")
         logging.info("Loading the datasets...")
-        trains = reader.read_txt(conf.train_file, conf.train_num, type_map[suffix])
+        trains = reader.read_txt(conf.train_file, conf.train_num, "")
         all_tests = reader.read_test_txt(conf.test_file, conf.train_num)
         for idx in range(len(all_tests)):
             # 给对象打分类标签
@@ -628,7 +628,7 @@ def main_predict():
         cfig.label2idx = conf.label2idx
         cfig.label_size = conf.label_size
         cfig.idx2labels = conf.idx2labels
-        model_folder = conf.model_folder + "_" + suffix + '_1_1'
+        model_folder = conf.model_folder
         model_name = model_folder + "/final_bert_crf"
         # model = BertCRF.from_pretrained(conf.bert_model_dir, config=cfig)
         model = BertCRF(cfig=cfig)
@@ -656,16 +656,21 @@ def main_predict():
             for i in range(len(tests[idx].prediction)):
                 if tests[idx].prediction[i].startswith("B-") and start == -1:
                     start = i
-                    # 找出单字实体(仅针对NUM类别)
+                    # 找出单字实体(仅针对IF类别)
                     # if tests[idx].prediction[i] == "B-NUM":
-                    #     if i == len(tests[idx].prediction) - 1 or tests[idx].prediction[i + 1].startswith("B-") or \
-                    #             tests[idx].prediction[i + 1].startswith("O"):
-                    #         name = predict_dict['query'][i]
-                    #         predict_dict[tests[idx].prediction[i][2:]] = predict_dict.get(tests[idx].prediction[i][2:],
-                    #                                                                       []) + [
-                    #                                                          {"str": name, "start_position": i,
-                    #                                                           "end_position": i}]
-                    #         start = -1
+                    if suffix == 'IF':
+                        if i == len(tests[idx].prediction) - 1 or tests[idx].prediction[i + 1].startswith("B-") or \
+                                tests[idx].prediction[i + 1].startswith("O"):
+                            value = tests[idx].content[i]
+                            role = tests[idx].prediction[i][2:]
+                            sample = {"id": qids, "events": [{"type": data_type,
+                                                              "mentions": [
+                                                                  {"word": value, "span": [start, start + 1],
+                                                                   "role": role
+                                                                   }]}]}
+                            lst.append(sample)
+
+                            start = -1
                 if tests[idx].prediction[i].startswith("E-") and start != -1:
                     # if i != len(tests[idx].prediction) - 1 and predict_dict['query'][i+1] == '之':  # 修正模型对于TV类别预测的不恰当分割
                     #     continue
@@ -674,7 +679,7 @@ def main_predict():
                                                        2:]:  # START 和 END 的类别必须保持一致，否则不能算实体，放弃抽取
                         end = i
                         value = tests[idx].content[start:end+1]
-                        role = tests[idx].prediction[i][2+len(suffix):]
+                        role = tests[idx].prediction[i][2:]
                         sample = {"id": qids, "events": [{"type": data_type,
                                                           "mentions": [
                                                               {"word": value, "span": [start, end+1],
@@ -1140,9 +1145,10 @@ def main_predict_voting():
 
 
 if __name__ == "__main__":
-    os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+    # os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     parser = argparse.ArgumentParser(description="Transformer CRF implementation")
     opt = parse_arguments_t(parser)
+    os.environ['CUDA_VISIBLE_DEVICES'] = opt.device_num
     print(torch.cuda.current_device())
     if opt.train_or_predict == 1:
         main()

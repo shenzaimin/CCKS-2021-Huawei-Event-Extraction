@@ -224,24 +224,24 @@ class Reader:
                                 trigger.append(line['content'][start_span:end_span])
                             try:
                                 if end_span - start_span == 1:
-                                    labels[start_span] = "B-" + type_map[evn_type] + role
-                                    # labels[start_span] = "B-" + role
+                                    # labels[start_span] = "B-" + type_map[evn_type] + role
+                                    labels[start_span] = "B-" + role
                                 elif end_span - start_span == 2:
-                                    labels[start_span] = "B-" + type_map[evn_type] + role
-                                    labels[start_span+1] = "E-" + type_map[evn_type] + role
-                                    # labels[start_span] = "B-" + role
-                                    # labels[start_span+1] = "E-" + role
+                                    # labels[start_span] = "B-" + type_map[evn_type] + role
+                                    # labels[start_span+1] = "E-" + type_map[evn_type] + role
+                                    labels[start_span] = "B-" + role
+                                    labels[start_span+1] = "E-" + role
                                 elif end_span - start_span > 2:
                                     for i in range(start_span, end_span):
                                         if i == start_span:
-                                            labels[i] = "B-" + type_map[evn_type] + role
-                                            # labels[i] = "B-" + role
+                                            # labels[i] = "B-" + type_map[evn_type] + role
+                                            labels[i] = "B-" + role
                                         elif i == end_span-1:
-                                            labels[i] = "E-" + type_map[evn_type] + role
-                                            # labels[i] = "E-" + role
+                                            # labels[i] = "E-" + type_map[evn_type] + role
+                                            labels[i] = "E-" + role
                                         else:
-                                            labels[i] = "I-" + type_map[evn_type] + role
-                                            # labels[i] = "I-" + role
+                                            # labels[i] = "I-" + type_map[evn_type] + role
+                                            labels[i] = "I-" + role
                                 else:
                                     print("Wrong span!")
                             except:

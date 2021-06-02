@@ -1,4 +1,4 @@
-{"doc_id": "15021", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 4, "RSRQ"]]}]}
+{"doc_id": "15021", "event_list": [{"trigger": ["IndexFault", 8, "差"], "argument": [["Index", 4, "RSRQ"]]}]}
 {"doc_id": "15027", "event_list": [{"trigger": ["IndexFault", 20, "上升"], "argument": [["Index", 9, "RRC连接建立失败次数"]]}]}
 {"doc_id": "15029", "event_list": [{"trigger": ["IndexFault", 40, "显现"], "argument": [["Index", 2, "发射功率"], ["Index", 35, "VSWR值"]]}]}
 {"doc_id": "15039", "event_list": [{"trigger": ["IndexFault", 22, "恶化"], "argument": [["Index", 17, "接入成功率"]]}]}
@@ -10,63 +10,63 @@
 {"doc_id": "15052", "event_list": [{"trigger": ["IndexFault", 27, "下降"], "argument": [["Index", 21, "DL MCS"]]}]}
 {"doc_id": "15059", "event_list": [{"trigger": ["IndexFault", 13, "小于"], "argument": [["Index", 8, "用户出水量"]]}]}
 {"doc_id": "15066", "event_list": [{"trigger": ["IndexFault", 19, "较低"], "argument": [["Index", 9, "全网RRC重建成功率"]]}]}
-{"doc_id": "15071", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 1, "SINR"]]}]}
-{"doc_id": "15074", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 21, "测试路段SINR"]]}]}
-{"doc_id": "15077", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "VOLTE上行丢包率"]]}]}
+{"doc_id": "15071", "event_list": [{"trigger": ["IndexFault", 12, "差"], "argument": [["Index", 1, "SINR"], ["Index", 9, "MCS"]]}]}
+{"doc_id": "15074", "event_list": [{"trigger": ["IndexFault", 29, "差"], "argument": [["Index", 21, "测试路段SINR"]]}]}
+{"doc_id": "15077", "event_list": [{"trigger": ["IndexFault", 23, "高"], "argument": [["Index", 13, "VOLTE上行丢包率"]]}]}
 {"doc_id": "15078", "event_list": [{"trigger": ["IndexFault", 16, "不稳定"], "argument": [["Index", 12, "时钟性能"]]}]}
 {"doc_id": "15079", "event_list": [{"trigger": ["IndexFault", 24, "下降"], "argument": [["Index", 18, "TDS侧指标"]]}]}
 {"doc_id": "15081", "event_list": [{"trigger": ["IndexFault", 9, "不足"], "argument": [["Index", 7, "电压"]]}]}
-{"doc_id": "15082", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "PDCCH DTX比例"]]}]}
+{"doc_id": "15082", "event_list": [{"trigger": ["IndexFault", 11, "差"], "argument": [["Index", 0, "PDCCH DTX比例"]]}]}
 {"doc_id": "15084", "event_list": [{"trigger": ["IndexFault", 19, "降低"], "argument": [["Index", 1, "用户数"], ["Index", 13, "用户吞吐量"]]}]}
 {"doc_id": "15086", "event_list": [{"trigger": ["IndexFault", 19, "异常"], "argument": [["Index", 8, "YD保障A区域的接通率"]]}]}
-{"doc_id": "15093", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "现网切换成功率"]]}]}
+{"doc_id": "15093", "event_list": [{"trigger": ["IndexFault", 20, "低"], "argument": [["Index", 13, "现网切换成功率"]]}]}
 {"doc_id": "15099", "event_list": [{"trigger": ["IndexFault", 17, "掉零"], "argument": [["Index", 10, "E-RAB指标"]]}]}
-{"doc_id": "15101", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "站内切换成功率"]]}]}
+{"doc_id": "15101", "event_list": [{"trigger": ["IndexFault", 52, "低"], "argument": [["Index", 12, "站内切换成功率"], ["Index", 41, "小区站内异频切换成功率"]]}]}
 {"doc_id": "15107", "event_list": [{"trigger": ["IndexFault", 25, "过高"], "argument": [["Index", 8, "小基站容量"], ["Index", 17, "上行PRB利用率"]]}]}
-{"doc_id": "15108", "event_list": [{"trigger": ["IndexFault", 18, "超过"], "argument": [["Index", 0, "核心网处理时延"]]}]}
-{"doc_id": "15113", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "MOS值"]]}]}
-{"doc_id": "15118", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 15, "接入成功率"]]}]}
+{"doc_id": "15108", "event_list": [{"trigger": ["IndexFault", 18, "超过"], "argument": [["Index", 0, "核心网处理时延"], ["Index", 10, "attach时延"]]}]}
+{"doc_id": "15113", "event_list": [{"trigger": ["IndexFault", 11, "低"], "argument": [["Index", 7, "MOS值"]]}]}
+{"doc_id": "15118", "event_list": [{"trigger": ["IndexFault", 20, "低"], "argument": [["Index", 15, "接入成功率"]]}]}
 {"doc_id": "15120", "event_list": [{"trigger": ["IndexFault", 9, "超过"], "argument": [["Index", 0, "CPRI接口差损值"]]}]}
 {"doc_id": "15125", "event_list": [{"trigger": ["IndexFault", 18, "过高"], "argument": [["Index", 3, "覆盖用户比重"], ["Index", 13, "小区误码率"]]}]}
-{"doc_id": "15127", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "RRC建立成功率"]]}]}
+{"doc_id": "15127", "event_list": [{"trigger": ["IndexFault", 8, "低"], "argument": [["Index", 0, "RRC建立成功率"]]}]}
 {"doc_id": "15129", "event_list": [{"trigger": ["IndexFault", 23, "降低"], "argument": [["Index", 13, "全网S1切换成率"]]}]}
-{"doc_id": "15132", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "VoLTE语音质量"]]}]}
+{"doc_id": "15132", "event_list": [{"trigger": ["IndexFault", 19, "差"], "argument": [["Index", 10, "VoLTE语音质量"]]}]}
 {"doc_id": "15133", "event_list": [{"trigger": ["IndexFault", 8, "下降"], "argument": [["Index", 2, "小区服务能力"]]}]}
-{"doc_id": "15138", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 17, "上行干扰"]]}]}
+{"doc_id": "15138", "event_list": [{"trigger": ["IndexFault", 21, "大"], "argument": [["Index", 17, "上行干扰"]]}]}
 {"doc_id": "15141", "event_list": [{"trigger": ["IndexFault", 18, "过长"], "argument": [["Index", 12, "呼叫建立时延"]]}]}
-{"doc_id": "15145", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "RRC建立成功率"]]}]}
+{"doc_id": "15145", "event_list": [{"trigger": ["IndexFault", 20, "低"], "argument": [["Index", 12, "RRC建立成功率"]]}]}
 {"doc_id": "15149", "event_list": [{"trigger": ["IndexFault", 15, "下降"], "argument": [["Index", 9, "单小区吞吐率"]]}]}
 {"doc_id": "15152", "event_list": [{"trigger": ["IndexFault", 4, "很差"], "argument": [["Index", 0, "切换指标"]]}]}
-{"doc_id": "15155", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 11, "4G同频切换成功率"]]}]}
+{"doc_id": "15155", "event_list": [{"trigger": ["IndexFault", 20, "低"], "argument": [["Index", 11, "4G同频切换成功率"]]}]}
 {"doc_id": "15158", "event_list": [{"trigger": ["IndexFault", 18, "较大"], "argument": [["Index", 16, "长度"]]}]}
-{"doc_id": "15165", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "RRC建立成功率"]]}]}
+{"doc_id": "15165", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 7, "RRC建立成功率"]]}]}
 {"doc_id": "15169", "event_list": [{"trigger": ["IndexFault", 7, "太长"], "argument": [["Index", 0, "单板空闲态时间"]]}]}
-{"doc_id": "15186", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "切换成功率"]]}]}
-{"doc_id": "15188", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "覆盖"]]}]}
-{"doc_id": "15198", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "切换成功率"]]}]}
+{"doc_id": "15186", "event_list": [{"trigger": ["IndexFault", 18, "低"], "argument": [["Index", 0, "切换成功率"], ["Index", 9, "X2切换准备成功率"]]}]}
+{"doc_id": "15188", "event_list": [{"trigger": ["IndexFault", 11, "差"], "argument": [["Index", 9, "覆盖"]]}]}
+{"doc_id": "15198", "event_list": [{"trigger": ["IndexFault", 15, "低"], "argument": [["Index", 10, "切换成功率"]]}]}
 {"doc_id": "15200", "event_list": [{"trigger": ["IndexFault", 21, "异常"], "argument": [["Index", 6, "HZ电信全网S1接口切换成功率"]]}]}
 {"doc_id": "15204", "event_list": [{"trigger": ["IndexFault", 18, "较差"], "argument": [["Index", 0, "差点测试速率"], ["Index", 14, "上行信号"]]}]}
 {"doc_id": "15205", "event_list": [{"trigger": ["IndexFault", 20, "恶化"], "argument": [["Index", 18, "指标"]]}]}
 {"doc_id": "15209", "event_list": [{"trigger": ["IndexFault", 14, "恶化"], "argument": [["Index", 10, "整体指标"]]}]}
-{"doc_id": "15211", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "HYPERCELL逻辑小区数量"]]}]}
+{"doc_id": "15211", "event_list": [{"trigger": ["IndexFault", 15, "超"], "argument": [["Index", 0, "HYPERCELL逻辑小区数量"]]}]}
 {"doc_id": "15212", "event_list": [{"trigger": ["IndexFault", 19, "陡降"], "argument": [["Index", 15, "RSRP"]]}]}
-{"doc_id": "15214", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 6, "RAB建立成功率"]]}]}
-{"doc_id": "15220", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "SINR"]]}]}
+{"doc_id": "15214", "event_list": [{"trigger": ["IndexFault", 45, "低"], "argument": [["Index", 6, "RAB建立成功率"], ["Index", 37, "RAB建立成功率"]]}]}
+{"doc_id": "15220", "event_list": [{"trigger": ["IndexFault", 14, "低"], "argument": [["Index", 10, "SINR"]]}]}
 {"doc_id": "15222", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 19, "下行吞吐率"]]}]}
 {"doc_id": "15224", "event_list": [{"trigger": ["IndexFault", 11, "不够"], "argument": [["Index", 0, "CS call间隔时间"]]}]}
 {"doc_id": "15225", "event_list": [{"trigger": ["IndexFault", 28, "过高"], "argument": [["Index", 18, "BRU单板CPU负荷"]]}]}
 {"doc_id": "15233", "event_list": [{"trigger": ["IndexFault", 5, "达到"], "argument": [["Index", 2, "RLC"]]}]}
 {"doc_id": "15234", "event_list": [{"trigger": ["IndexFault", 32, "增加"], "argument": [["Index", 0, "E-RAB异常释放次数"], ["Index", 26, "异常释放次数"]]}]}
 {"doc_id": "15237", "event_list": [{"trigger": ["IndexFault", 12, "抬升"], "argument": [["Index", 10, "掉话"]]}]}
-{"doc_id": "15238", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "用户感知"]]}]}
+{"doc_id": "15238", "event_list": [{"trigger": ["IndexFault", 4, "差"], "argument": [["Index", 0, "用户感知"]]}]}
 {"doc_id": "15239", "event_list": [{"trigger": ["IndexFault", 28, "增加"], "argument": [["Index", 22, "切换准备失败"]]}]}
 {"doc_id": "15240", "event_list": [{"trigger": ["IndexFault", 15, "增多"], "argument": [["Index", 9, "消息重传次数"]]}]}
 {"doc_id": "15241", "event_list": [{"trigger": ["IndexFault", 17, "不达标"], "argument": [["Index", 11, "ping时延"]]}]}
 {"doc_id": "15243", "event_list": [{"trigger": ["IndexFault", 18, "下降"], "argument": [["Index", 9, "CQI和切换成功率"]]}]}
-{"doc_id": "15245", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "上行信号质量"]]}]}
-{"doc_id": "15246", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 19, "上行信号质量"]]}]}
-{"doc_id": "15247", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "MOS值"]]}]}
-{"doc_id": "15254", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "切换成功率"]]}]}
+{"doc_id": "15245", "event_list": [{"trigger": ["IndexFault", 18, "差"], "argument": [["Index", 12, "上行信号质量"]]}]}
+{"doc_id": "15246", "event_list": [{"trigger": ["IndexFault", 25, "差"], "argument": [["Index", 19, "上行信号质量"]]}]}
+{"doc_id": "15247", "event_list": [{"trigger": ["IndexFault", 14, "低"], "argument": [["Index", 10, "MOS值"]]}]}
+{"doc_id": "15254", "event_list": [{"trigger": ["IndexFault", 12, "低"], "argument": [["Index", 7, "切换成功率"]]}]}
 {"doc_id": "15257", "event_list": [{"trigger": ["IndexFault", 25, "突增"], "argument": [["Index", 13, "共模TDS基站切换失败率"]]}]}
 {"doc_id": "15258", "event_list": [{"trigger": ["IndexFault", 21, "较少"], "argument": [["Index", 14, "小区平均用户数"]]}]}
 {"doc_id": "15259", "event_list": [{"trigger": ["IndexFault", 6, "较差"], "argument": [["Index", 2, "网络质量"]]}]}
@@ -77,19 +77,19 @@
 {"doc_id": "15271", "event_list": [{"trigger": ["IndexFault", 18, "变差"], "argument": [["Index", 11, "切入成功率指标"]]}]}
 {"doc_id": "15272", "event_list": [{"trigger": ["IndexFault", 26, "超大"], "argument": [["Index", 15, "MOD ATT话统指标"]]}]}
 {"doc_id": "15273", "event_list": [{"trigger": ["IndexFault", 16, "突增"], "argument": [["Index", 12, "话统数据"]]}]}
-{"doc_id": "15274", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "4G用户上网业务感知"]]}]}
+{"doc_id": "15274", "event_list": [{"trigger": ["IndexFault", 20, "差"], "argument": [["Index", 10, "4G用户上网业务感知"]]}]}
 {"doc_id": "15279", "event_list": [{"trigger": ["IndexFault", 11, "增加"], "argument": [["Index", 8, "掉话率"]]}]}
 {"doc_id": "15282", "event_list": [{"trigger": ["IndexFault", 22, "降低"], "argument": [["Index", 15, "终端速率"], ["State", 19, "大幅度"]]}]}
-{"doc_id": "15283", "event_list": [{"trigger": ["IndexFault", 19, "非常低"], "argument": [["Index", 0, "MCS"]]}]}
+{"doc_id": "15283", "event_list": [{"trigger": ["IndexFault", 19, "非常低"], "argument": [["Index", 0, "MCS"], ["Index", 16, "CQI"]]}]}
 {"doc_id": "15285", "event_list": [{"trigger": ["IndexFault", 41, "可达"], "argument": [["Index", 37, "上行速率"]]}]}
 {"doc_id": "15287", "event_list": [{"trigger": ["IndexFault", 15, "下降"], "argument": [["Index", 9, "小区服务能力"]]}]}
-{"doc_id": "15289", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "新建站点掉话率"]]}]}
+{"doc_id": "15289", "event_list": [{"trigger": ["IndexFault", 15, "高"], "argument": [["Index", 8, "新建站点掉话率"]]}]}
 {"doc_id": "15295", "event_list": [{"trigger": ["IndexFault", 18, "恶化"], "argument": [["Index", 10, "RRC建立成功率"]]}]}
-{"doc_id": "15296", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 20, "PING成功率"]]}]}
+{"doc_id": "15296", "event_list": [{"trigger": ["IndexFault", 27, "低"], "argument": [["Index", 20, "PING成功率"]]}]}
 {"doc_id": "15298", "event_list": [{"trigger": ["IndexFault", 16, "较大"], "argument": [["Index", 14, "占比"]]}]}
 {"doc_id": "15302", "event_list": [{"trigger": ["IndexFault", 7, "太差"], "argument": [["Index", 3, "信号质量"]]}]}
 {"doc_id": "15303", "event_list": [{"trigger": ["IndexFault", 39, "恶化"], "argument": [["Index", 25, "小区E-RAB建立成功率"]]}]}
-{"doc_id": "15305", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "上行误码"]]}]}
+{"doc_id": "15305", "event_list": [{"trigger": ["IndexFault", 14, "高"], "argument": [["Index", 10, "上行误码"]]}]}
 {"doc_id": "15306", "event_list": [{"trigger": ["IndexFault", 30, "超出"], "argument": [["Index", 26, "小区功率"]]}]}
 {"doc_id": "15311", "event_list": [{"trigger": ["IndexFault", 28, "下降"], "argument": [["Index", 22, "小区服务能力"]]}]}
 {"doc_id": "15316", "event_list": [{"trigger": ["IndexFault", 13, "较差"], "argument": [["Index", 11, "指标"]]}]}
@@ -97,75 +97,75 @@
 {"doc_id": "15319", "event_list": [{"trigger": ["IndexFault", 12, "未达到"], "argument": [["Index", 0, "下载量"], ["Index", 7, "上行吞吐量"]]}]}
 {"doc_id": "15322", "event_list": [{"trigger": ["IndexFault", 15, "质差"], "argument": [["Index", 11, "SINR"]]}]}
 {"doc_id": "15325", "event_list": [{"trigger": ["IndexFault", 15, "达上限"], "argument": [["Index", 3, "LTE锚点站X2链路数量"]]}]}
-{"doc_id": "15331", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "LTE切换成功率"]]}]}
+{"doc_id": "15331", "event_list": [{"trigger": ["IndexFault", 17, "低"], "argument": [["Index", 9, "LTE切换成功率"]]}]}
 {"doc_id": "15334", "event_list": [{"trigger": ["IndexFault", 15, "增加"], "argument": [["Index", 8, "异常释放次数"]]}]}
-{"doc_id": "15337", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "下行吞吐率"]]}]}
-{"doc_id": "15338", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "RRC建立成功率"]]}]}
+{"doc_id": "15337", "event_list": [{"trigger": ["IndexFault", 12, "低"], "argument": [["Index", 7, "下行吞吐率"]]}]}
+{"doc_id": "15338", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 7, "RRC建立成功率"]]}]}
 {"doc_id": "15340", "event_list": [{"trigger": ["IndexFault", 15, "不达标"], "argument": [["Index", 10, "站点吞吐率"]]}]}
 {"doc_id": "15347", "event_list": [{"trigger": ["IndexFault", 2, "增加"], "argument": []}]}
 {"doc_id": "15350", "event_list": [{"trigger": ["IndexFault", 13, "超时"], "argument": [["Index", 0, "内部处理时间"], ["Index", 10, "定时器"]]}]}
 {"doc_id": "15351", "event_list": [{"trigger": ["IndexFault", 9, "下降"], "argument": [["Index", 2, "话筒统计吞吐率"]]}]}
-{"doc_id": "15352", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "干扰值"]]}]}
-{"doc_id": "15353", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "高铁远端供电模块动态性能"]]}]}
+{"doc_id": "15352", "event_list": [{"trigger": ["IndexFault", 11, "低"], "argument": [["Index", 8, "干扰值"]]}]}
+{"doc_id": "15353", "event_list": [{"trigger": ["IndexFault", 12, "差"], "argument": [["Index", 0, "高铁远端供电模块动态性能"]]}]}
 {"doc_id": "15357", "event_list": [{"trigger": ["IndexFault", 20, "较低"], "argument": [["Index", 0, "S1口传输时延"], ["Index", 11, "视频 vMOS得分"]]}]}
-{"doc_id": "15362", "event_list": [{"trigger": ["IndexFault", 11, "非常高"], "argument": [["Index", 0, "误码率"]]}]}
+{"doc_id": "15362", "event_list": [{"trigger": ["IndexFault", 11, "非常高"], "argument": [["Index", 0, "误码率"], ["Index", 6, "下行丢包率"]]}]}
 {"doc_id": "15363", "event_list": [{"trigger": ["IndexFault", 4, "超过"], "argument": [["Index", 2, "流量"]]}]}
-{"doc_id": "15364", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "下行SINR"]]}]}
+{"doc_id": "15364", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 9, "下行SINR"]]}]}
 {"doc_id": "15367", "event_list": [{"trigger": ["IndexFault", 20, "恶化"], "argument": [["Index", 15, "上行丢包率"]]}]}
 {"doc_id": "15374", "event_list": [{"trigger": ["IndexFault", 20, "恶化"], "argument": [["Index", 13, "S1建立成功率"]]}]}
-{"doc_id": "15375", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "切换成功率"]]}]}
+{"doc_id": "15375", "event_list": [{"trigger": ["IndexFault", 12, "低"], "argument": [["Index", 7, "切换成功率"]]}]}
 {"doc_id": "15376", "event_list": [{"trigger": ["IndexFault", 17, "恶化"], "argument": [["Index", 13, "接入指标"]]}]}
 {"doc_id": "15384", "event_list": [{"trigger": ["IndexFault", 12, "过大"], "argument": [["Index", 7, "光缆受拉力"]]}]}
 {"doc_id": "15387", "event_list": [{"trigger": ["IndexFault", 8, "超出"], "argument": [["Index", 0, "X2接口链路数量"]]}]}
 {"doc_id": "15388", "event_list": [{"trigger": ["IndexFault", 10, "不够好"], "argument": [["Index", 4, "目标小区信号"]]}]}
 {"doc_id": "15392", "event_list": [{"trigger": ["IndexFault", 13, "较差"], "argument": [["Index", 9, "SINR"]]}]}
-{"doc_id": "15397", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 6, " RRC 接入成功率"]]}]}
+{"doc_id": "15397", "event_list": [{"trigger": ["IndexFault", 16, "低"], "argument": [["Index", 6, " RRC 接入成功率"]]}]}
 {"doc_id": "15398", "event_list": [{"trigger": ["IndexFault", 18, "为0"], "argument": [["Index", 14, "切换次数"]]}]}
 {"doc_id": "15402", "event_list": [{"trigger": ["IndexFault", 19, "提升"], "argument": [["Index", 4, "累计时间"], ["Index", 14, "小区退服率"]]}]}
 {"doc_id": "15403", "event_list": [{"trigger": ["IndexFault", 14, "超过"], "argument": [["Index", 2, "宏微共BBU RRU总数"]]}]}
 {"doc_id": "15404", "event_list": [{"trigger": ["IndexFault", 4, "增加"], "argument": [["Index", 0, "重传比例"]]}]}
 {"doc_id": "15413", "event_list": [{"trigger": ["IndexFault", 27, "上升"], "argument": [["Index", 22, "全网掉话率"]]}]}
 {"doc_id": "15423", "event_list": [{"trigger": ["IndexFault", 17, "减少"], "argument": [["Index", 3, "PRB利用率"], ["Index", 14, "用户数"]]}]}
-{"doc_id": "15431", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 11, "ERAB建立成功率"]]}]}
+{"doc_id": "15431", "event_list": [{"trigger": ["IndexFault", 20, "低"], "argument": [["Index", 11, "ERAB建立成功率"]]}]}
 {"doc_id": "15437", "event_list": [{"trigger": ["IndexFault", 30, "较低"], "argument": [["Index", 20, "E-RAB建立成功率"]]}]}
-{"doc_id": "15440", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "站间切换率"]]}]}
-{"doc_id": "15442", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 2, "收光"]]}]}
-{"doc_id": "15451", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "SINR"]]}]}
+{"doc_id": "15440", "event_list": [{"trigger": ["IndexFault", 14, "低"], "argument": [["Index", 9, "站间切换率"]]}]}
+{"doc_id": "15442", "event_list": [{"trigger": ["IndexFault", 4, "弱"], "argument": [["Index", 2, "收光"]]}]}
+{"doc_id": "15451", "event_list": [{"trigger": ["IndexFault", 4, "差"], "argument": [["Index", 0, "SINR"]]}]}
 {"doc_id": "15452", "event_list": [{"trigger": ["IndexFault", 16, "较高"], "argument": [["Index", 6, "PUSCH BLER"]]}]}
-{"doc_id": "15457", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 2, "传输误码"]]}]}
-{"doc_id": "15460", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "下行信号质量"]]}]}
-{"doc_id": "15461", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "S1建立成功率"]]}]}
-{"doc_id": "15463", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "RRC重建比率"]]}]}
+{"doc_id": "15457", "event_list": [{"trigger": ["IndexFault", 6, "高"], "argument": [["Index", 2, "传输误码"]]}]}
+{"doc_id": "15460", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 9, "下行信号质量"]]}]}
+{"doc_id": "15461", "event_list": [{"trigger": ["IndexFault", 19, "低"], "argument": [["Index", 12, "S1建立成功率"]]}]}
+{"doc_id": "15463", "event_list": [{"trigger": ["IndexFault", 15, "高"], "argument": [["Index", 8, "RRC重建比率"]]}]}
 {"doc_id": "15472", "event_list": [{"trigger": ["IndexFault", 14, "下降"], "argument": [["Index", 8, "小区服务能力"]]}]}
 {"doc_id": "15473", "event_list": [{"trigger": ["IndexFault", 10, "较强"], "argument": [["Index", 6, "邻区信号"]]}]}
 {"doc_id": "15475", "event_list": [{"trigger": ["IndexFault", 4, "不达标"], "argument": [["Index", 0, "器件性能"]]}]}
 {"doc_id": "15479", "event_list": [{"trigger": ["IndexFault", 18, "恶化"], "argument": [["Index", 13, "切换成功率"]]}]}
 {"doc_id": "15483", "event_list": [{"trigger": ["IndexFault", 22, "下降"], "argument": [["Index", 16, "小区服务能力"]]}]}
-{"doc_id": "15484", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 17, "RRC接入成功率"]]}]}
+{"doc_id": "15484", "event_list": [{"trigger": ["IndexFault", 25, "低"], "argument": [["Index", 17, "RRC接入成功率"]]}]}
 {"doc_id": "15489", "event_list": [{"trigger": ["IndexFault", 2, "过高"], "argument": [["Index", 0, "温度"]]}]}
 {"doc_id": "15490", "event_list": [{"trigger": ["IndexFault", 25, "为0"], "argument": [["Index", 20, "接入成功率"]]}]}
-{"doc_id": "15499", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "上行底噪"]]}]}
-{"doc_id": "15502", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 20, "全网S1Sig建立成功率"]]}]}
+{"doc_id": "15499", "event_list": [{"trigger": ["IndexFault", 4, "高"], "argument": [["Index", 0, "上行底噪"]]}]}
+{"doc_id": "15502", "event_list": [{"trigger": ["IndexFault", 32, "低"], "argument": [["Index", 20, "全网S1Sig建立成功率"]]}]}
 {"doc_id": "15506", "event_list": [{"trigger": ["IndexFault", 34, "不足"], "argument": [["Index", 20, "基站上游来水"], ["Index", 30, "RB调度"]]}]}
 {"doc_id": "15508", "event_list": [{"trigger": ["IndexFault", 25, "下降"], "argument": [["Index", 5, "Coolpad的三款终端PING时延"]]}]}
-{"doc_id": "15509", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 11, "接通率"]]}]}
+{"doc_id": "15509", "event_list": [{"trigger": ["IndexFault", 14, "低"], "argument": [["Index", 11, "接通率"]]}]}
 {"doc_id": "15511", "event_list": [{"trigger": ["IndexFault", 78, "异常"], "argument": [["Index", 71, "无线接通率指标"]]}]}
 {"doc_id": "15513", "event_list": [{"trigger": ["IndexFault", 20, "异常"], "argument": [["Index", 17, "吞吐率"]]}]}
 {"doc_id": "15514", "event_list": [{"trigger": ["IndexFault", 20, "下降"], "argument": [["Index", 10, "SRVCC切换成功率"]]}]}
-{"doc_id": "15516", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "同频切换成功率"]]}]}
+{"doc_id": "15516", "event_list": [{"trigger": ["IndexFault", 16, "低"], "argument": [["Index", 9, "同频切换成功率"]]}]}
 {"doc_id": "15520", "event_list": [{"trigger": ["IndexFault", 13, "太弱"], "argument": [["Index", 0, "1 GPS馈线"], ["Index", 11, "信号"]]}]}
 {"doc_id": "15524", "event_list": [{"trigger": ["IndexFault", 13, "较高"], "argument": [["Index", 11, "负荷"]]}]}
-{"doc_id": "15525", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 28, "5G SCG添加成功率"]]}]}
+{"doc_id": "15525", "event_list": [{"trigger": ["IndexFault", 39, "低"], "argument": [["Index", 28, "5G SCG添加成功率"]]}]}
 {"doc_id": "15528", "event_list": [{"trigger": ["IndexFault", 8, "不足"], "argument": [["Index", 0, "POI互调抑制比"]]}]}
 {"doc_id": "15532", "event_list": [{"trigger": ["IndexFault", 17, "恶化"], "argument": [["Index", 8, "RRC连接建立时延"]]}]}
 {"doc_id": "15542", "event_list": [{"trigger": ["IndexFault", 20, "不足"], "argument": [["Index", 2, "下行RB调度"], ["Index", 16, "下行流量"]]}]}
 {"doc_id": "15545", "event_list": [{"trigger": ["IndexFault", 20, "异常"], "argument": [["Index", 11, "TOP小区干扰指标"]]}]}
 {"doc_id": "15549", "event_list": [{"trigger": ["IndexFault", 38, "抬升"], "argument": [["Index", 0, "Call Drop Rate"], ["Index", 21, "L.E-RAB.AbnormRel"]]}]}
 {"doc_id": "15550", "event_list": [{"trigger": ["IndexFault", 8, "上升"], "argument": [["Index", 0, "E-RAB掉话率"]]}]}
-{"doc_id": "15551", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 3, "上行通道质量"]]}]}
+{"doc_id": "15551", "event_list": [{"trigger": ["IndexFault", 9, "差"], "argument": [["Index", 3, "上行通道质量"]]}]}
 {"doc_id": "15561", "event_list": [{"trigger": ["IndexFault", 18, "下降"], "argument": [["Index", 12, "SP业务质量"]]}]}
 {"doc_id": "15564", "event_list": [{"trigger": ["IndexFault", 12, "超过"], "argument": [["Index", 1, "基带板绑定扇区设备组数"]]}]}
-{"doc_id": "15569", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "基站切换入成功率"]]}]}
+{"doc_id": "15569", "event_list": [{"trigger": ["IndexFault", 21, "低"], "argument": [["Index", 13, "基站切换入成功率"]]}]}
 {"doc_id": "15575", "event_list": [{"trigger": ["IndexFault", 32, "过长"], "argument": [["Index", 4, "VOLTE网格呼叫建立时延"], ["Index", 24, "核心网转交互时延"]]}]}
 {"doc_id": "15582", "event_list": [{"trigger": ["IndexFault", 36, "偏低"], "argument": [["Index", 25, "辅小区RRC建立成功率"]]}]}
 {"doc_id": "15586", "event_list": [{"trigger": ["IndexFault", 14, "异常"], "argument": [["Index", 9, "下载调度数"]]}]}
@@ -173,7 +173,7 @@
 {"doc_id": "15589", "event_list": [{"trigger": ["IndexFault", 22, "过长"], "argument": [["Index", 11, "地铁站ERAB建立时延"]]}]}
 {"doc_id": "15590", "event_list": [{"trigger": ["IndexFault", 25, "不达标"], "argument": [["Index", 0, "eNODEB与S-GW环回时延"], ["Index", 19, "PING时延"]]}]}
 {"doc_id": "15591", "event_list": [{"trigger": ["IndexFault", 8, "恶化"], "argument": [["Index", 1, "L侧的RSRP"]]}]}
-{"doc_id": "15592", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 19, "5G站间变更成功率"]]}]}
+{"doc_id": "15592", "event_list": [{"trigger": ["IndexFault", 28, "低"], "argument": [["Index", 19, "5G站间变更成功率"]]}]}
 {"doc_id": "15593", "event_list": [{"trigger": ["IndexFault", 23, "较少"], "argument": [["Index", 13, "高铁小区单向切换次数"]]}]}
 {"doc_id": "15607", "event_list": [{"trigger": ["IndexFault", 18, "不好"], "argument": [["Index", 12, "下行信道质量"]]}]}
 {"doc_id": "15609", "event_list": [{"trigger": ["IndexFault", 21, "恶化"], "argument": [["Index", 16, "KPI指标"]]}]}
@@ -181,19 +181,19 @@
 {"doc_id": "15616", "event_list": [{"trigger": ["IndexFault", 38, "长达"], "argument": [["Index", 11, "CSFB平均呼叫时延"], ["Index", 36, "时延"]]}]}
 {"doc_id": "15619", "event_list": [{"trigger": ["IndexFault", 19, "抬升"], "argument": [["Index", 2, "X2切换成功率"], ["Index", 14, "无线掉话率"]]}]}
 {"doc_id": "15620", "event_list": [{"trigger": ["IndexFault", 13, "超标"], "argument": [["Index", 0, "3G侧时延"], ["Index", 9, "CSFB"]]}]}
-{"doc_id": "15627", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 23, "时延"]]}]}
+{"doc_id": "15627", "event_list": [{"trigger": ["IndexFault", 25, "大"], "argument": [["Index", 23, "时延"]]}]}
 {"doc_id": "15633", "event_list": [{"trigger": ["IndexFault", 32, "降低"], "argument": [["Index", 25, "S1切换成功率"]]}]}
 {"doc_id": "15644", "event_list": [{"trigger": ["IndexFault", 189, "偏高"], "argument": [["Index", 182, "小区上行误块率"]]}]}
 {"doc_id": "15649", "event_list": [{"trigger": ["IndexFault", 16, "不足"], "argument": [["Index", 11, "上行来水量"]]}]}
 {"doc_id": "15650", "event_list": [{"trigger": ["IndexFault", 43, "较高"], "argument": [["Index", 38, "干扰噪声值"]]}]}
 {"doc_id": "15653", "event_list": [{"trigger": ["IndexFault", 21, "过高"], "argument": [["Index", 12, "MAC层上行误块率"]]}]}
-{"doc_id": "15655", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "重建比例"]]}]}
+{"doc_id": "15655", "event_list": [{"trigger": ["IndexFault", 17, "高"], "argument": [["Index", 13, "重建比例"]]}]}
 {"doc_id": "15659", "event_list": [{"trigger": ["IndexFault", 11, "低于"], "argument": [["Index", 8, "TCP"]]}]}
 {"doc_id": "15661", "event_list": [{"trigger": ["IndexFault", 12, "下降"], "argument": [["Index", 0, "光功率"], ["Index", 7, "KPI指标"]]}]}
-{"doc_id": "15662", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "g 全网RACH成功率"]]}]}
-{"doc_id": "15665", "event_list": [{"trigger": ["IndexFault", 6, "较多"], "argument": [["Index", 0, "小区重发次数"], ["Index", 9, " RCC 建立成功率"]]}]}
+{"doc_id": "15662", "event_list": [{"trigger": ["IndexFault", 11, "低"], "argument": [["Index", 0, "g 全网RACH成功率"]]}]}
+{"doc_id": "15665", "event_list": [{"trigger": ["IndexFault", 19, "低"], "argument": [["Index", 0, "小区重发次数"], ["Index", 9, " RCC 建立成功率"]]}]}
 {"doc_id": "15666", "event_list": [{"trigger": ["IndexFault", 11, "不足"], "argument": [["Index", 4, "C/SCC调度"]]}]}
-{"doc_id": "15668", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 11, "SCG变更成功率"]]}]}
+{"doc_id": "15668", "event_list": [{"trigger": ["IndexFault", 19, "低"], "argument": [["Index", 11, "SCG变更成功率"]]}]}
 {"doc_id": "15670", "event_list": [{"trigger": ["IndexFault", 13, "增多"], "argument": [["Index", 11, "掉话"]]}]}
 {"doc_id": "15672", "event_list": [{"trigger": ["IndexFault", 26, "为空"], "argument": [["Index", 16, "NRDUCELL指标"]]}]}
 {"doc_id": "15675", "event_list": [{"trigger": ["IndexFault", 16, "恶化"], "argument": [["Index", 4, "干扰底噪"], ["Index", 12, "接通指标"]]}]}
@@ -203,7 +203,7 @@
 {"doc_id": "15679", "event_list": [{"trigger": ["IndexFault", 24, "较低"], "argument": [["Index", 15, "室分LTE信号电平"]]}]}
 {"doc_id": "15681", "event_list": [{"trigger": ["IndexFault", 19, "过高"], "argument": [["Index", 0, "小区总体用户数"], ["Index", 15, "瞬时负载"]]}]}
 {"doc_id": "15683", "event_list": [{"trigger": ["IndexFault", 29, "恶化"], "argument": [["Index", 22, "切换成功率指标"]]}]}
-{"doc_id": "15692", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "RB数"]]}]}
+{"doc_id": "15692", "event_list": [{"trigger": ["IndexFault", 3, "少"], "argument": [["Index", 0, "RB数"]]}]}
 {"doc_id": "15700", "event_list": [{"trigger": ["IndexFault", 24, "恶化"], "argument": [["Index", 17, "RRC接入指标"]]}]}
 {"doc_id": "15701", "event_list": [{"trigger": ["IndexFault", 64, "较高"], "argument": [["Index", 57, "小区语音掉话率"]]}]}
 {"doc_id": "15702", "event_list": [{"trigger": ["IndexFault", 27, "较低"], "argument": [["Index", 22, "切换成功率"]]}]}
@@ -214,9 +214,9 @@
 {"doc_id": "15709", "event_list": [{"trigger": ["IndexFault", 24, "偏高"], "argument": [["Index", 16, "上行PRB利用率"]]}]}
 {"doc_id": "15712", "event_list": [{"trigger": ["IndexFault", 44, "下降"], "argument": [["Index", 16, "传输网元MTU"], ["Index", 31, "运营商用户下行TCP吞吐率"]]}]}
 {"doc_id": "15713", "event_list": [{"trigger": ["IndexFault", 15, "超出"], "argument": [["Index", 9, "小区建立个数"]]}]}
-{"doc_id": "15717", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "MCS"]]}]}
+{"doc_id": "15717", "event_list": [{"trigger": ["IndexFault", 13, "高"], "argument": [["Index", 0, "MCS"], ["Index", 8, "IBLER"]]}]}
 {"doc_id": "15719", "event_list": [{"trigger": ["IndexFault", 23, "抬升"], "argument": [["Index", 1, "PRB利用率"], ["Index", 14, "小区之间的下行干扰"]]}]}
-{"doc_id": "15720", "event_list": [{"trigger": ["IndexFault", 86, "下降"], "argument": [["Index", 24, "CQI优良比"], ["Index", 56, "全网CQI优良比"]]}]}
+{"doc_id": "15720", "event_list": [{"trigger": ["IndexFault", 86, "下降"], "argument": [["Index", 24, "CQI优良比"], ["Index", 56, "全"]]}]}
 {"doc_id": "15721", "event_list": [{"trigger": ["IndexFault", 30, "陡增"], "argument": [["Index", 20, "MCS = 0的次数"]]}]}
 {"doc_id": "15724", "event_list": [{"trigger": ["IndexFault", 8, "掉底"], "argument": [["Index", 2, "业务下载速率"]]}]}
 {"doc_id": "15726", "event_list": [{"trigger": ["IndexFault", 13, "恶化"], "argument": [["Index", 6, "接入和掉线指标"]]}]}
@@ -229,17 +229,17 @@
 {"doc_id": "15742", "event_list": [{"trigger": ["IndexFault", 13, "下降"], "argument": [["Index", 7, "小区接入指标"]]}]}
 {"doc_id": "15748", "event_list": [{"trigger": ["IndexFault", 18, "很低"], "argument": [["Index", 11, "下行MCS阶数"]]}]}
 {"doc_id": "15752", "event_list": [{"trigger": ["IndexFault", 17, "过长"], "argument": [["Index", 0, "RRC建立时间"], ["Index", 11, "CSFB时延"]]}]}
-{"doc_id": "15753", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 6, "无线环境"]]}]}
+{"doc_id": "15753", "event_list": [{"trigger": ["IndexFault", 10, "差"], "argument": [["Index", 6, "无线环境"]]}]}
 {"doc_id": "15763", "event_list": [{"trigger": ["IndexFault", 16, "增加"], "argument": [["Index", 10, "重建尝试次数"]]}]}
 {"doc_id": "15767", "event_list": [{"trigger": ["IndexFault", 4, "超过"], "argument": [["Index", 0, "切换地点"]]}]}
 {"doc_id": "15768", "event_list": [{"trigger": ["IndexFault", 18, "恶化"], "argument": [["Index", 10, "RRC建立成功率"]]}]}
-{"doc_id": "15770", "event_list": [{"trigger": ["IndexFault", 84, "很低"], "argument": [["Index", 29, "eRAB建立成功率"]]}]}
-{"doc_id": "15780", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "RRC连接建立成功率"]]}]}
+{"doc_id": "15770", "event_list": [{"trigger": ["IndexFault", 84, "很低"], "argument": [["Index", 29, "eRAB建立成功率"], ["Index", 75, "eRAB建立成功率"]]}]}
+{"doc_id": "15780", "event_list": [{"trigger": ["IndexFault", 22, "低"], "argument": [["Index", 12, "RRC连接建立成功率"]]}]}
 {"doc_id": "15781", "event_list": [{"trigger": ["IndexFault", 21, "恶化"], "argument": [["Index", 15, "LTE掉话率"]]}]}
 {"doc_id": "15783", "event_list": [{"trigger": ["IndexFault", 11, "大于"], "argument": [["Index", 0, "LTE带宽硬件扩展单元"]]}]}
 {"doc_id": "15784", "event_list": [{"trigger": ["IndexFault", 21, "增多"], "argument": [["Index", 0, "掉话率"], ["Index", 11, "无线侧异常释放次数"]]}]}
-{"doc_id": "15785", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 23, "执行成功率"]]}]}
-{"doc_id": "15786", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "空口MCS"]]}]}
+{"doc_id": "15785", "event_list": [{"trigger": ["IndexFault", 28, "低"], "argument": [["Index", 23, "执行成功率"]]}]}
+{"doc_id": "15786", "event_list": [{"trigger": ["IndexFault", 14, "低"], "argument": [["Index", 9, "空口MCS"]]}]}
 {"doc_id": "15788", "event_list": [{"trigger": ["IndexFault", 4, "过小"], "argument": [["Index", 0, "MTU值"]]}]}
 {"doc_id": "15789", "event_list": [{"trigger": ["IndexFault", 41, "恶化"], "argument": [["Index", 19, "Scell Add成功率和重建比和切换成功率"]]}]}
 {"doc_id": "15791", "event_list": [{"trigger": ["IndexFault", 22, "升高"], "argument": [["Index", 13, "话统上行RBLER"]]}]}
@@ -249,21 +249,21 @@
 {"doc_id": "15810", "event_list": [{"trigger": ["IndexFault", 7, "异常"], "argument": [["Index", 0, "RRU输出功率"]]}]}
 {"doc_id": "15820", "event_list": [{"trigger": ["IndexFault", 20, "较低"], "argument": [["Index", 8, "走道内RHUB噪音感知度"]]}]}
 {"doc_id": "15825", "event_list": [{"trigger": ["IndexFault", 7, "较低"], "argument": [["Index", 0, "RRU发射电平"]]}]}
-{"doc_id": "15828", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 14, "SN指标"]]}]}
-{"doc_id": "15832", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 14, "SRVCC切换成功率"]]}]}
+{"doc_id": "15828", "event_list": [{"trigger": ["IndexFault", 18, "差"], "argument": [["Index", 14, "SN指标"]]}]}
+{"doc_id": "15832", "event_list": [{"trigger": ["IndexFault", 24, "差"], "argument": [["Index", 14, "SRVCC切换成功率"]]}]}
 {"doc_id": "15833", "event_list": [{"trigger": ["IndexFault", 14, "恶化"], "argument": [["Index", 7, "站点切换成功率"]]}]}
-{"doc_id": "15835", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "切换成功率"]]}]}
+{"doc_id": "15835", "event_list": [{"trigger": ["IndexFault", 17, "低"], "argument": [["Index", 12, "切换成功率"]]}]}
 {"doc_id": "15837", "event_list": [{"trigger": ["IndexFault", 15, "不达标"], "argument": [["Index", 10, "上行吞吐率"]]}]}
 {"doc_id": "15839", "event_list": [{"trigger": ["IndexFault", 16, "越小"], "argument": [["Index", 10, "无线资源开销"]]}]}
 {"doc_id": "15845", "event_list": [{"trigger": ["IndexFault", 18, "过大"], "argument": [["Index", 12, "呼叫建立时延"]]}]}
 {"doc_id": "15849", "event_list": [{"trigger": ["IndexFault", 3, "超过"], "argument": [["Index", 0, "用户数"]]}]}
 {"doc_id": "15850", "event_list": [{"trigger": ["IndexFault", 8, "下降"], "argument": [["Index", 2, "小区服务能力"]]}]}
-{"doc_id": "15851", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "TOP小区单双流占比"]]}]}
-{"doc_id": "15853", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "接通率"]]}]}
+{"doc_id": "15851", "event_list": [{"trigger": ["IndexFault", 19, "低"], "argument": [["Index", 9, "TOP小区单双流占比"]]}]}
+{"doc_id": "15853", "event_list": [{"trigger": ["IndexFault", 16, "低"], "argument": [["Index", 13, "接通率"]]}]}
 {"doc_id": "15858", "event_list": [{"trigger": ["IndexFault", 28, "恶化"], "argument": [["Index", 20, "RRC接入成功率"]]}]}
-{"doc_id": "15865", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 14, "MSG3-MSG4时延"]]}]}
-{"doc_id": "15871", "event_list": [{"trigger": ["IndexFault", 28, "较高"], "argument": [["Index", 5, "边缘用户、覆盖质量"]]}]}
-{"doc_id": "15877", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "整网空口质量"]]}]}
+{"doc_id": "15865", "event_list": [{"trigger": ["IndexFault", 25, "大"], "argument": [["Index", 14, "MSG3-MSG4时延"]]}]}
+{"doc_id": "15871", "event_list": [{"trigger": ["IndexFault", 28, "较高"], "argument": [["Index", 5, "边缘用户、覆盖质量"], ["Index", 21, "低阶MCS占比"]]}]}
+{"doc_id": "15877", "event_list": [{"trigger": ["IndexFault", 16, "差"], "argument": [["Index", 10, "整网空口质量"]]}]}
 {"doc_id": "15880", "event_list": [{"trigger": ["IndexFault", 20, "恶化"], "argument": [["Index", 16, "ERAB"]]}]}
 {"doc_id": "15881", "event_list": [{"trigger": ["IndexFault", 21, "超过"], "argument": [["Index", 1, "ERAB"], ["Index", 14, "最大用户数数"]]}]}
 {"doc_id": "15882", "event_list": [{"trigger": ["IndexFault", 32, "超大"], "argument": [["Index", 7, "ftp速率"], ["Index", 21, "UGW与OCS之间时延"]]}]}
@@ -274,10 +274,10 @@
 {"doc_id": "15899", "event_list": [{"trigger": ["IndexFault", 12, "超过"], "argument": [["Index", 2, "主控板的CPU使用率"]]}]}
 {"doc_id": "15900", "event_list": [{"trigger": ["IndexFault", 10, "抬升"], "argument": [["Index", 4, "CCE聚合度"]]}]}
 {"doc_id": "15902", "event_list": [{"trigger": ["IndexFault", 26, "上升"], "argument": [["Index", 23, "掉话率"]]}]}
-{"doc_id": "15905", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "接通率"]]}]}
+{"doc_id": "15905", "event_list": [{"trigger": ["IndexFault", 16, "差"], "argument": [["Index", 13, "接通率"]]}]}
 {"doc_id": "15909", "event_list": [{"trigger": ["IndexFault", 17, "下降"], "argument": [["Index", 9, "上报小区服务能力"]]}]}
 {"doc_id": "15910", "event_list": [{"trigger": ["IndexFault", 12, "降低"], "argument": [["Index", 2, "基站S1Sig成功率"]]}]}
-{"doc_id": "15912", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "远点用户空口质量"]]}]}
+{"doc_id": "15912", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 7, "远点用户空口质量"]]}]}
 {"doc_id": "15913", "event_list": [{"trigger": ["IndexFault", 24, "下降"], "argument": [["Index", 14, "E-RAB建立成功率"]]}]}
 {"doc_id": "15917", "event_list": [{"trigger": ["IndexFault", 16, "减小"], "argument": [["Index", 0, "RS功率"], ["Index", 9, "RS SINR"]]}]}
 {"doc_id": "15919", "event_list": [{"trigger": ["IndexFault", 14, "较小"], "argument": [["Index", 8, "上载日志文件"]]}]}
@@ -285,20 +285,20 @@
 {"doc_id": "15922", "event_list": [{"trigger": ["IndexFault", 13, "下降"], "argument": [["Index", 8, "切换成功率"]]}]}
 {"doc_id": "15925", "event_list": [{"trigger": ["IndexFault", 12, "过大"], "argument": [["Index", 10, "湿度"]]}]}
 {"doc_id": "15928", "event_list": [{"trigger": ["IndexFault", 16, "恶化"], "argument": [["Index", 4, "空口质量"], ["Index", 12, "无线指标"]]}]}
-{"doc_id": "15930", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 19, "呼叫时间"]]}]}
+{"doc_id": "15930", "event_list": [{"trigger": ["IndexFault", 23, "长"], "argument": [["Index", 19, "呼叫时间"]]}]}
 {"doc_id": "15931", "event_list": [{"trigger": ["IndexFault", 13, "恶化"], "argument": [["Index", 8, "接入KPI"]]}]}
 {"doc_id": "15934", "event_list": [{"trigger": ["IndexFault", 33, "恶化"], "argument": [["Index", 20, "无线接通率和QCI1掉话率"]]}]}
-{"doc_id": "15935", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 15, "无线接通成功率"]]}]}
+{"doc_id": "15935", "event_list": [{"trigger": ["IndexFault", 22, "低"], "argument": [["Index", 15, "无线接通成功率"]]}]}
 {"doc_id": "15936", "event_list": [{"trigger": ["IndexFault", 13, "下降"], "argument": [["Index", 7, "小区服务能力"]]}]}
-{"doc_id": "15943", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "ERAB建立成功率"]]}]}
+{"doc_id": "15943", "event_list": [{"trigger": ["IndexFault", 22, "低"], "argument": [["Index", 13, "ERAB建立成功率"]]}]}
 {"doc_id": "15946", "event_list": [{"trigger": ["IndexFault", 14, "不足"], "argument": [["Index", 11, "来水量"]]}]}
-{"doc_id": "15947", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "CL共模RRU硬件版本"]]}]}
+{"doc_id": "15947", "event_list": [{"trigger": ["IndexFault", 11, "低"], "argument": [["Index", 0, "CL共模RRU硬件版本"]]}]}
 {"doc_id": "15954", "event_list": [{"trigger": ["IndexFault", 17, "恶化"], "argument": [["Index", 10, "接收机解调性能"]]}]}
-{"doc_id": "15962", "event_list": [{"trigger": ["IndexFault", 16, "较长"], "argument": [["Index", 2, "空口质量"]]}]}
+{"doc_id": "15962", "event_list": [{"trigger": ["IndexFault", 16, "较长"], "argument": [["Index", 2, "空口质量"], ["Index", 9, "RRC建立时延"]]}]}
 {"doc_id": "15964", "event_list": [{"trigger": ["IndexFault", 35, "下降"], "argument": [["Index", 0, "最大连接用户数"], ["Index", 27, "RRC建立成功率"]]}]}
-{"doc_id": "15965", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "ERAB建立成功率"]]}]}
+{"doc_id": "15965", "event_list": [{"trigger": ["IndexFault", 22, "低"], "argument": [["Index", 13, "ERAB建立成功率"]]}]}
 {"doc_id": "15967", "event_list": [{"trigger": ["IndexFault", 3, "过小"], "argument": [["Index", 0, "MTU"]]}]}
-{"doc_id": "15979", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "4G重定向比例"]]}]}
+{"doc_id": "15979", "event_list": [{"trigger": ["IndexFault", 17, "高"], "argument": [["Index", 10, "4G重定向比例"]]}]}
 {"doc_id": "15992", "event_list": [{"trigger": ["IndexFault", 16, "偏低"], "argument": [["Index", 9, "DL MCS阶"]]}]}
 {"doc_id": "15993", "event_list": [{"trigger": ["IndexFault", 21, "过低"], "argument": [["Index", 15, "下行SINR"]]}]}
 {"doc_id": "16000", "event_list": [{"trigger": ["IndexFault", 21, "上升"], "argument": [["Index", 16, "全网掉话率"]]}]}
@@ -307,43 +307,43 @@
 {"doc_id": "16012", "event_list": [{"trigger": ["IndexFault", 7, "太差"], "argument": [["Index", 0, "上行的SINR"]]}]}
 {"doc_id": "16016", "event_list": [{"trigger": ["IndexFault", 36, "超过"], "argument": [["Index", 27, "下行RLC层吞吐率"]]}]}
 {"doc_id": "16020", "event_list": [{"trigger": ["IndexFault", 31, "下降"], "argument": [["Index", 0, "SFN小区扇区设备配置数量"], ["Index", 23, "上报小区服务能力"]]}]}
-{"doc_id": "16021", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "ACK时延"]]}]}
+{"doc_id": "16021", "event_list": [{"trigger": ["IndexFault", 13, "长"], "argument": [["Index", 8, "ACK时延"]]}]}
 {"doc_id": "16022", "event_list": [{"trigger": ["IndexFault", 23, "过大"], "argument": [["Index", 17, "PING时延"]]}]}
 {"doc_id": "16024", "event_list": [{"trigger": ["IndexFault", 19, "下降"], "argument": [["Index", 10, "ERAB建立成功率"]]}]}
 {"doc_id": "16026", "event_list": [{"trigger": ["IndexFault", 30, "下降"], "argument": [["Index", 24, "小区服务能力"]]}]}
-{"doc_id": "16028", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 17, "RRC建立成功率"]]}]}
+{"doc_id": "16028", "event_list": [{"trigger": ["IndexFault", 25, "低"], "argument": [["Index", 17, "RRC建立成功率"]]}]}
 {"doc_id": "16030", "event_list": [{"trigger": ["IndexFault", 12, "剧增"], "argument": [["Index", 7, "空口信令数"]]}]}
 {"doc_id": "16031", "event_list": [{"trigger": ["IndexFault", 17, "异常"], "argument": [["Index", 8, "counter指标"]]}]}
-{"doc_id": "16037", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 16, "吞吐率"]]}]}
+{"doc_id": "16037", "event_list": [{"trigger": ["IndexFault", 19, "低"], "argument": [["Index", 16, "吞吐率"]]}]}
 {"doc_id": "16040", "event_list": [{"trigger": ["IndexFault", 20, "下降"], "argument": [["Index", 14, "小区服务能力"]]}]}
 {"doc_id": "16045", "event_list": [{"trigger": ["IndexFault", 12, "波动"], "argument": [["Index", 8, "上行性能"]]}]}
 {"doc_id": "16053", "event_list": [{"trigger": ["IndexFault", 16, "增加"], "argument": [["Index", 14, "时延"]]}]}
-{"doc_id": "16058", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "HZ商业厅1小区接入成功率"]]}]}
+{"doc_id": "16058", "event_list": [{"trigger": ["IndexFault", 13, "差"], "argument": [["Index", 0, "HZ商业厅1小区接入成功率"]]}]}
 {"doc_id": "16061", "event_list": [{"trigger": ["IndexFault", 8, "下降"], "argument": [["Index", 2, "小区服务能力"]]}]}
 {"doc_id": "16064", "event_list": [{"trigger": ["IndexFault", 15, "不准确"], "argument": [["Index", 11, "统计指标"]]}]}
-{"doc_id": "16068", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "接入成功率"]]}]}
+{"doc_id": "16068", "event_list": [{"trigger": ["IndexFault", 13, "低"], "argument": [["Index", 8, "接入成功率"]]}]}
 {"doc_id": "16072", "event_list": [{"trigger": ["IndexFault", 14, "下降"], "argument": [["Index", 6, "RRC建立成功率"]]}]}
 {"doc_id": "16074", "event_list": [{"trigger": ["IndexFault", 13, "减少"], "argument": [["Index", 8, "掉话的次数"]]}]}
-{"doc_id": "16076", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 2, "UE信道质量"]]}]}
+{"doc_id": "16076", "event_list": [{"trigger": ["IndexFault", 8, "差"], "argument": [["Index", 2, "UE信道质量"]]}]}
 {"doc_id": "16080", "event_list": [{"trigger": ["IndexFault", 5, "超长"], "argument": [["Index", 3, "时延"]]}]}
 {"doc_id": "16083", "event_list": [{"trigger": ["IndexFault", 21, "异常"], "argument": [["Index", 3, "通道4上行底噪"], ["Index", 16, "小区干扰值"]]}]}
 {"doc_id": "16085", "event_list": [{"trigger": ["IndexFault", 11, "提升"], "argument": [["Index", 0, "开户VIP用户下行功率"]]}]}
 {"doc_id": "16086", "event_list": [{"trigger": ["IndexFault", 14, "过低"], "argument": [["Index", 3, "Rank2 SINR值"]]}]}
-{"doc_id": "16087", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "BBU收光"]]}]}
+{"doc_id": "16087", "event_list": [{"trigger": ["IndexFault", 15, "高"], "argument": [["Index", 10, "BBU收光"]]}]}
 {"doc_id": "16088", "event_list": [{"trigger": ["IndexFault", 21, "较低"], "argument": [["Index", 9, "RRC与ERAB成功率"]]}]}
 {"doc_id": "16090", "event_list": [{"trigger": ["IndexFault", 15, "抬升"], "argument": [["Index", 10, "上行误码率"]]}]}
 {"doc_id": "16091", "event_list": [{"trigger": ["IndexFault", 12, "较差"], "argument": [["Index", 8, "用户感知"]]}]}
 {"doc_id": "16092", "event_list": [{"trigger": ["IndexFault", 18, "恶化"], "argument": [["Index", 9, "IBELR和MCS"]]}]}
-{"doc_id": "16095", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "下行吞吐率"]]}]}
-{"doc_id": "16096", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 10, "边缘用户体验"]]}]}
-{"doc_id": "16098", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "空口质量"]]}]}
+{"doc_id": "16095", "event_list": [{"trigger": ["IndexFault", 12, "低"], "argument": [["Index", 7, "下行吞吐率"]]}]}
+{"doc_id": "16096", "event_list": [{"trigger": ["IndexFault", 16, "差"], "argument": [["Index", 10, "边缘用户体验"]]}]}
+{"doc_id": "16098", "event_list": [{"trigger": ["IndexFault", 16, "差"], "argument": [["Index", 12, "空口质量"]]}]}
 {"doc_id": "16100", "event_list": [{"trigger": ["IndexFault", 22, "恶化"], "argument": [["Index", 11, "ERAB建立成功率指标"], ["State", 24, "严重"]]}]}
 {"doc_id": "16102", "event_list": [{"trigger": ["IndexFault", 26, "下降"], "argument": [["Index", 19, "X2切入成功率"]]}]}
-{"doc_id": "16103", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 11, "ERAB建立成功率"]]}]}
-{"doc_id": "16111", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "ERAB建立成功率"]]}]}
+{"doc_id": "16103", "event_list": [{"trigger": ["IndexFault", 20, "低"], "argument": [["Index", 11, "ERAB建立成功率"]]}]}
+{"doc_id": "16111", "event_list": [{"trigger": ["IndexFault", 16, "低"], "argument": [["Index", 7, "ERAB建立成功率"]]}]}
 {"doc_id": "16114", "event_list": [{"trigger": ["IndexFault", 14, "很高"], "argument": [["Index", 4, "QCI9的空口丢包率"]]}]}
-{"doc_id": "16121", "event_list": [{"trigger": ["IndexFault", 5, "超限"], "argument": [["Index", 0, "功率lic"], ["Index", 17, "下行速率"]]}]}
-{"doc_id": "16122", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 17, "下行调度"]]}]}
+{"doc_id": "16121", "event_list": [{"trigger": ["IndexFault", 21, "低"], "argument": [["Index", 0, "功率lic"], ["Index", 17, "下行速率"]]}]}
+{"doc_id": "16122", "event_list": [{"trigger": ["IndexFault", 21, "少"], "argument": [["Index", 17, "下行调度"]]}]}
 {"doc_id": "16124", "event_list": [{"trigger": ["IndexFault", 56, "增加"], "argument": [["Index", 33, "话务量"], ["Index", 47, "上行PRB资源调度"]]}]}
 {"doc_id": "16125", "event_list": [{"trigger": ["IndexFault", 29, "不稳定"], "argument": [["Index", 23, "CPE的电压"]]}]}
 {"doc_id": "16127", "event_list": [{"trigger": ["IndexFault", 11, "降至"], "argument": [["Index", 4, "RRU链的速率"]]}]}
@@ -353,50 +353,50 @@
 {"doc_id": "16265", "event_list": [{"trigger": ["IndexFault", 25, "抬升"], "argument": [["Index", 15, "下行平均激活用户数"]]}]}
 {"doc_id": "16267", "event_list": [{"trigger": ["IndexFault", 40, "过多"], "argument": [["Index", 19, "上网网速"], ["Index", 31, "RRC接入失败次数"]]}]}
 {"doc_id": "16268", "event_list": [{"trigger": ["IndexFault", 19, "恶化"], "argument": [["Index", 11, "ERAB接入指标"]]}]}
-{"doc_id": "16269", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 21, "速率"]]}]}
-{"doc_id": "16271", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 16, "RACH成功率"]]}]}
-{"doc_id": "16274", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "E2E时延"]]}]}
+{"doc_id": "16269", "event_list": [{"trigger": ["IndexFault", 23, "低"], "argument": [["Index", 21, "速率"]]}]}
+{"doc_id": "16271", "event_list": [{"trigger": ["IndexFault", 23, "低"], "argument": [["Index", 16, "RACH成功率"]]}]}
+{"doc_id": "16274", "event_list": [{"trigger": ["IndexFault", 13, "大"], "argument": [["Index", 8, "E2E时延"]]}]}
 {"doc_id": "16277", "event_list": [{"trigger": ["IndexFault", 20, "波动"], "argument": [["Index", 8, "Lampsite下载速率"]]}]}
 {"doc_id": "16281", "event_list": [{"trigger": ["IndexFault", 11, "增加"], "argument": [["Index", 6, "PROXY"]]}]}
 {"doc_id": "16283", "event_list": [{"trigger": ["IndexFault", 11, "不足"], "argument": [["Index", 0, "下行来水"], ["Index", 7, "调度次数"]]}]}
-{"doc_id": "16285", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 6, "单流比"]]}]}
+{"doc_id": "16285", "event_list": [{"trigger": ["IndexFault", 9, "高"], "argument": [["Index", 6, "单流比"]]}]}
 {"doc_id": "16288", "event_list": [{"trigger": ["IndexFault", 11, "不足"], "argument": [["Index", 4, "CPRI 速率"]]}]}
-{"doc_id": "16289", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "S1建立成功率"]]}]}
+{"doc_id": "16289", "event_list": [{"trigger": ["IndexFault", 19, "低"], "argument": [["Index", 12, "S1建立成功率"]]}]}
 {"doc_id": "16292", "event_list": [{"trigger": ["IndexFault", 32, "恶化"], "argument": [["Index", 24, "干扰"], ["Index", 29, "丢包率"]]}]}
 {"doc_id": "16295", "event_list": [{"trigger": ["IndexFault", 8, "不足"], "argument": [["Index", 6, "调度"]]}]}
-{"doc_id": "16296", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 26, "下载峰值速率"]]}]}
+{"doc_id": "16296", "event_list": [{"trigger": ["IndexFault", 32, "低"], "argument": [["Index", 26, "下载峰值速率"]]}]}
 {"doc_id": "16300", "event_list": [{"trigger": ["IndexFault", 31, "恶化"], "argument": [["Index", 23, "站点掉话指标"]]}]}
-{"doc_id": "16302", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "切换成功率"]]}]}
-{"doc_id": "16303", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "上行速率"]]}]}
+{"doc_id": "16302", "event_list": [{"trigger": ["IndexFault", 13, "低"], "argument": [["Index", 8, "切换成功率"]]}]}
+{"doc_id": "16303", "event_list": [{"trigger": ["IndexFault", 17, "低"], "argument": [["Index", 13, "上行速率"]]}]}
 {"doc_id": "16306", "event_list": [{"trigger": ["IndexFault", 2, "不达标"], "argument": [["Index", 0, "速率"]]}]}
 {"doc_id": "16309", "event_list": [{"trigger": ["IndexFault", 17, "无法保证"], "argument": [["Index", 11, "视频业务速率"]]}]}
 {"doc_id": "16310", "event_list": [{"trigger": ["IndexFault", 15, "低下"], "argument": [["Index", 8, "服务器网卡性能"]]}]}
 {"doc_id": "16311", "event_list": [{"trigger": ["IndexFault", 15, "恶化"], "argument": [["Index", 11, "接入指标"]]}]}
-{"doc_id": "16314", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "空口误码"]]}]}
+{"doc_id": "16314", "event_list": [{"trigger": ["IndexFault", 13, "高"], "argument": [["Index", 9, "空口误码"]]}]}
 {"doc_id": "16315", "event_list": [{"trigger": ["IndexFault", 14, "突增"], "argument": [["Index", 6, "E-RAB掉线率"]]}]}
 {"doc_id": "16317", "event_list": [{"trigger": ["IndexFault", 27, "不满足"], "argument": [["Index", 19, "重保站点下行速率"]]}]}
 {"doc_id": "16322", "event_list": [{"trigger": ["IndexFault", 32, "增多"], "argument": [["Index", 16, "UE Context释放次数"]]}]}
 {"doc_id": "16327", "event_list": [{"trigger": ["IndexFault", 28, "抬升"], "argument": [["Index", 2, "RACH接入功率"], ["Index", 16, "PRACH位置的RB干扰"]]}]}
 {"doc_id": "16331", "event_list": [{"trigger": ["IndexFault", 20, "异常"], "argument": [["Index", 11, "单用户测试下行速率"]]}]}
-{"doc_id": "16336", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 6, "性能指标"]]}]}
+{"doc_id": "16336", "event_list": [{"trigger": ["IndexFault", 12, "弱"], "argument": [["Index", 6, "性能指标"]]}]}
 {"doc_id": "16346", "event_list": [{"trigger": ["IndexFault", 25, "降低"], "argument": [["Index", 18, "S1切换成功率"]]}]}
 {"doc_id": "16353", "event_list": [{"trigger": ["IndexFault", 24, "下降"], "argument": [["Index", 15, "全网无线连接成功率"]]}]}
-{"doc_id": "16355", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 23, "CQI"]]}]}
+{"doc_id": "16355", "event_list": [{"trigger": ["IndexFault", 26, "差"], "argument": [["Index", 23, "CQI"]]}]}
 {"doc_id": "16357", "event_list": [{"trigger": ["IndexFault", 17, "恶化"], "argument": [["Index", 9, "咪咕视频卡顿指标"]]}]}
 {"doc_id": "16358", "event_list": [{"trigger": ["IndexFault", 18, "达不到"], "argument": [["Index", 0, "空口条件"], ["Index", 8, "5G站点下行测试速率"]]}]}
 {"doc_id": "16361", "event_list": [{"trigger": ["IndexFault", 32, "恶化"], "argument": [["Index", 27, "切换成功率"]]}]}
 {"doc_id": "16363", "event_list": [{"trigger": ["IndexFault", 14, "异常"], "argument": [["Index", 10, "下载速率"]]}]}
-{"doc_id": "16365", "event_list": [{"trigger": ["IndexFault", 5, "超规格"], "argument": [["Index", 2, "用户数"], ["Index", 10, "切换成功率"]]}]}
+{"doc_id": "16365", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 2, "用户数"], ["Index", 10, "切换成功率"]]}]}
 {"doc_id": "16366", "event_list": [{"trigger": ["IndexFault", 44, "下降"], "argument": [["Index", 16, "传输网元MTU"], ["Index", 31, "运营商用户下行TCP吞吐率"]]}]}
-{"doc_id": "16369", "event_list": [{"trigger": ["IndexFault", 6, "不足"], "argument": [["Index", 2, "上行调度"], ["Index", 10, "speedtest测试上行速率"]]}]}
+{"doc_id": "16369", "event_list": [{"trigger": ["IndexFault", 25, "低"], "argument": [["Index", 2, "上行调度"], ["Index", 10, "speedtest测试上行速率"]]}]}
 {"doc_id": "16371", "event_list": [{"trigger": ["IndexFault", 16, "下降"], "argument": [["Index", 12, "服务能力"]]}]}
-{"doc_id": "16372", "event_list": [{"trigger": ["IndexFault", 18, "不足"], "argument": [["Index", 4, "上行速率"]]}]}
-{"doc_id": "16375", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "切换成功率"]]}]}
-{"doc_id": "16376", "event_list": [{"trigger": ["IndexFault", 27, "不佳"], "argument": [["Index", 8, "空口信号质量"]]}]}
+{"doc_id": "16372", "event_list": [{"trigger": ["IndexFault", 18, "不足"], "argument": [["Index", 4, "上行速率"], ["Index", 14, "调度次数"]]}]}
+{"doc_id": "16375", "event_list": [{"trigger": ["IndexFault", 5, "低"], "argument": [["Index", 0, "切换成功率"]]}]}
+{"doc_id": "16376", "event_list": [{"trigger": ["IndexFault", 27, "不佳"], "argument": [["Index", 8, "空口信号质量"], ["Index", 19, "VOIP通话质量"]]}]}
 {"doc_id": "16381", "event_list": [{"trigger": ["IndexFault", 12, "不稳定"], "argument": [["Index", 0, "RSRP"], ["Index", 8, "下载速率"]]}]}
-{"doc_id": "16387", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 18, "高铁切换成功"]]}]}
+{"doc_id": "16387", "event_list": [{"trigger": ["IndexFault", 24, "低"], "argument": [["Index", 18, "高铁切换成功"]]}]}
 {"doc_id": "16390", "event_list": [{"trigger": ["IndexFault", 35, "非常低"], "argument": [["Index", 20, "上行调度基带解调出的RSRP"]]}]}
-{"doc_id": "16391", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "速率"]]}]}
+{"doc_id": "16391", "event_list": [{"trigger": ["IndexFault", 10, "差"], "argument": [["Index", 0, "速率"], ["Index", 6, "空口质量"]]}]}
 {"doc_id": "16396", "event_list": [{"trigger": ["IndexFault", 22, "恶化"], "argument": [["Index", 13, "VoLTE 掉线率"]]}]}
 {"doc_id": "16402", "event_list": [{"trigger": ["IndexFault", 10, "变差"], "argument": [["Index", 8, "感知"]]}]}
 {"doc_id": "16404", "event_list": [{"trigger": ["IndexFault", 25, "抬升"], "argument": [["Index", 20, "小区掉线率"]]}]}
@@ -410,62 +410,62 @@
 {"doc_id": "16431", "event_list": [{"trigger": ["IndexFault", 30, "不达标"], "argument": [["Index", 27, "吞吐量"]]}]}
 {"doc_id": "16433", "event_list": [{"trigger": ["IndexFault", 14, "较大"], "argument": [["Index", 12, "干扰"]]}]}
 {"doc_id": "16434", "event_list": [{"trigger": ["IndexFault", 38, "增多"], "argument": [["Index", 24, "X2和SCTPLNK故障告警"]]}]}
-{"doc_id": "16436", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 18, "volte接通率"]]}]}
-{"doc_id": "16440", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "单验测试上行速率"]]}]}
+{"doc_id": "16436", "event_list": [{"trigger": ["IndexFault", 26, "低"], "argument": [["Index", 18, "volte接通率"]]}]}
+{"doc_id": "16440", "event_list": [{"trigger": ["IndexFault", 8, "低"], "argument": [["Index", 0, "单验测试上行速率"]]}]}
 {"doc_id": "16443", "event_list": [{"trigger": ["IndexFault", 7, "超过"], "argument": [["Index", 0, "基站上报话统值"]]}]}
 {"doc_id": "16446", "event_list": [{"trigger": ["IndexFault", 14, "较差"], "argument": [["Index", 6, "小区边缘用户信号"]]}]}
 {"doc_id": "16448", "event_list": [{"trigger": ["IndexFault", 12, "超出"], "argument": [["Index", 8, "配置数据"]]}]}
 {"doc_id": "16450", "event_list": [{"trigger": ["IndexFault", 28, "异常"], "argument": [["Index", 15, "分配RB数"], ["Index", 24, "下行速率"]]}]}
-{"doc_id": "16452", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 15, "IMS注册成功率"]]}]}
+{"doc_id": "16452", "event_list": [{"trigger": ["IndexFault", 23, "低"], "argument": [["Index", 15, "IMS注册成功率"]]}]}
 {"doc_id": "16454", "event_list": [{"trigger": ["IndexFault", 26, "抬升"], "argument": [["Index", 20, "S1切换比率"]]}]}
 {"doc_id": "16455", "event_list": [{"trigger": ["IndexFault", 37, "较多"], "argument": [["Index", 24, "RRC连接建立失败的次数"]]}]}
 {"doc_id": "16460", "event_list": [{"trigger": ["IndexFault", 27, "掉零"], "argument": [["Index", 19, "NR站间变更速率"]]}]}
 {"doc_id": "16463", "event_list": [{"trigger": ["IndexFault", 20, "较低"], "argument": [["Index", 16, "传输速率"]]}]}
-{"doc_id": "16466", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 17, "上行吞吐率"]]}]}
+{"doc_id": "16466", "event_list": [{"trigger": ["IndexFault", 22, "低"], "argument": [["Index", 17, "上行吞吐率"]]}]}
 {"doc_id": "16468", "event_list": [{"trigger": ["IndexFault", 6, "较大"], "argument": [["Index", 2, "上行干扰"]]}]}
 {"doc_id": "16471", "event_list": [{"trigger": ["IndexFault", 16, "不足"], "argument": [["Index", 3, "TCP线程"], ["Index", 12, "上游来水"]]}]}
 {"doc_id": "16474", "event_list": [{"trigger": ["IndexFault", 21, "下降"], "argument": [["Index", 16, "切换成功率"]]}]}
-{"doc_id": "16477", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 6, "信号质量"]]}]}
+{"doc_id": "16477", "event_list": [{"trigger": ["IndexFault", 10, "差"], "argument": [["Index", 6, "信号质量"]]}]}
 {"doc_id": "16478", "event_list": [{"trigger": ["IndexFault", 17, "偏低"], "argument": [["Index", 4, "基站上游来水"], ["Index", 14, "吞吐率"]]}]}
 {"doc_id": "16484", "event_list": [{"trigger": ["IndexFault", 19, "恶化"], "argument": [["Index", 11, "接入切换指标"], ["State", 17, "全面"]]}]}
 {"doc_id": "16488", "event_list": [{"trigger": ["IndexFault", 26, "较低"], "argument": [["Index", 18, "RRC建立成功率"]]}]}
 {"doc_id": "16489", "event_list": [{"trigger": ["IndexFault", 27, "超过"], "argument": [["Index", 23, "小区功率"]]}]}
-{"doc_id": "16492", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "RRC重发次数"]]}]}
+{"doc_id": "16492", "event_list": [{"trigger": ["IndexFault", 15, "低"], "argument": [["Index", 0, "RRC重发次数"], ["Index", 10, "建立成功率"]]}]}
 {"doc_id": "16493", "event_list": [{"trigger": ["IndexFault", 19, "恶化"], "argument": [["Index", 9, "E-RAB建立成功率"]]}]}
-{"doc_id": "16495", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "重叠覆盖SINR"]]}]}
+{"doc_id": "16495", "event_list": [{"trigger": ["IndexFault", 8, "差"], "argument": [["Index", 0, "重叠覆盖SINR"]]}]}
 {"doc_id": "16496", "event_list": [{"trigger": ["IndexFault", 21, "增加"], "argument": [["Index", 15, "PRB利用率"]]}]}
-{"doc_id": "16499", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "速率"]]}]}
+{"doc_id": "16499", "event_list": [{"trigger": ["IndexFault", 11, "低"], "argument": [["Index", 9, "速率"]]}]}
 {"doc_id": "16503", "event_list": [{"trigger": ["IndexFault", 23, "较差"], "argument": [["Index", 13, "高铁站点的接通率指标"]]}]}
 {"doc_id": "16505", "event_list": [{"trigger": ["IndexFault", 22, "降额"], "argument": [["Index", 11, "SFN小区下行发射功率"]]}]}
 {"doc_id": "16507", "event_list": [{"trigger": ["IndexFault", 16, "陡降"], "argument": [["Index", 10, "路口桥下信号"]]}]}
 {"doc_id": "16509", "event_list": [{"trigger": ["IndexFault", 21, "较大"], "argument": [["Index", 16, "RTT时延"]]}]}
 {"doc_id": "16510", "event_list": [{"trigger": ["IndexFault", 16, "下降"], "argument": [["Index", 8, "射频单元的灵敏度"]]}]}
-{"doc_id": "16511", "event_list": [{"trigger": ["IndexFault", 15, "低于"], "argument": [["Index", 0, "CQI "]]}]}
+{"doc_id": "16511", "event_list": [{"trigger": ["IndexFault", 15, "低于"], "argument": [["Index", 0, "CQI "], ["Index", 7, "PRB最大利用率"]]}]}
 {"doc_id": "16513", "event_list": [{"trigger": ["IndexFault", 24, "较差"], "argument": [["Index", 13, "CSFB被叫接通率指标"]]}]}
-{"doc_id": "16516", "event_list": [{"trigger": ["IndexFault", 19, "不达标"], "argument": [["Index", 7, "基站调度数"]]}]}
+{"doc_id": "16516", "event_list": [{"trigger": ["IndexFault", 19, "不达标"], "argument": [["Index", 7, "基站调度数"], ["Index", 15, "下载速率"]]}]}
 {"doc_id": "16518", "event_list": [{"trigger": ["IndexFault", 17, "丢包"], "argument": []}]}
-{"doc_id": "16519", "event_list": [{"trigger": ["IndexFault", 39, "抬升"], "argument": [["Index", 26, "volte建立成功率"]]}]}
+{"doc_id": "16519", "event_list": [{"trigger": ["IndexFault", 39, "抬升"], "argument": [["Index", 26, "volte建立成功率"], ["Index", 37, "小区"]]}]}
 {"doc_id": "16521", "event_list": [{"trigger": ["IndexFault", 18, "无法校验偏差"], "argument": [["Index", 14, "主备时钟"]]}]}
 {"doc_id": "16523", "event_list": [{"trigger": ["IndexFault", 9, "较差"], "argument": [["Index", 5, "上行信道"]]}]}
-{"doc_id": "16528", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 15, "基带板CPU"]]}]}
+{"doc_id": "16528", "event_list": [{"trigger": ["IndexFault", 21, "高"], "argument": [["Index", 15, "基带板CPU"]]}]}
 {"doc_id": "16530", "event_list": [{"trigger": ["IndexFault", 42, "下降"], "argument": [["Index", 33, "LTE小区服务能力"]]}]}
-{"doc_id": "16533", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 38, "目标小区负载"]]}]}
+{"doc_id": "16533", "event_list": [{"trigger": ["IndexFault", 44, "高"], "argument": [["Index", 38, "目标小区负载"]]}]}
 {"doc_id": "16538", "event_list": [{"trigger": ["IndexFault", 7, "下降"], "argument": [["Index", 2, "近点吞吐率"]]}]}
-{"doc_id": "16548", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "头条、美图网速率"]]}]}
+{"doc_id": "16548", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 7, "头条、美图网速率"]]}]}
 {"doc_id": "16550", "event_list": [{"trigger": ["IndexFault", 11, "抬升"], "argument": [["Index", 4, "CCE占用比例"]]}]}
-{"doc_id": "16565", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, " 体验"]]}]}
+{"doc_id": "16565", "event_list": [{"trigger": ["IndexFault", 3, "差"], "argument": [["Index", 0, " 体验"]]}]}
 {"doc_id": "16568", "event_list": [{"trigger": ["IndexFault", 4, "超过"], "argument": [["Index", 0, " 参数值"]]}]}
 {"doc_id": "16572", "event_list": [{"trigger": ["IndexFault", 7, "不足"], "argument": [["Index", 0, "PCI复用距离"]]}]}
 {"doc_id": "16573", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 26, "负载的测量次数"]]}]}
 {"doc_id": "16581", "event_list": [{"trigger": ["IndexFault", 20, "异常"], "argument": [["Index", 3, "初始上下文建立请求"], ["Index", 16, "指标"]]}]}
 {"doc_id": "16585", "event_list": [{"trigger": ["IndexFault", 5, "比较较多"], "argument": [["Index", 0, " 调度次数"]]}]}
-{"doc_id": "16588", "event_list": [{"trigger": ["IndexFault", 8, "升高"], "argument": [["Index", 3, "IBLER"], ["Index", 11, "用户体验"]]}]}
+{"doc_id": "16588", "event_list": [{"trigger": ["IndexFault", 15, "差"], "argument": [["Index", 3, "IBLER"], ["Index", 11, "用户体验"]]}]}
 {"doc_id": "16600", "event_list": [{"trigger": ["IndexFault", 7, "降低"], "argument": [["Index", 0, " 平均上行流量"]]}]}
 {"doc_id": "16605", "event_list": [{"trigger": ["IndexFault", 16, "优于"], "argument": [["Index", 10, "SINR"]]}]}
-{"doc_id": "16609", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "TypeI比TypeII开销"]]}]}
+{"doc_id": "16609", "event_list": [{"trigger": ["IndexFault", 27, "大"], "argument": [["Index", 13, "TypeI比TypeII开销"]]}]}
 {"doc_id": "16610", "event_list": [{"trigger": ["IndexFault", 30, "突增"], "argument": [["Index", 21, "E-RAB建立次数"]]}]}
 {"doc_id": "16612", "event_list": [{"trigger": ["IndexFault", 12, "较高"], "argument": [["Index", 2, "3小区上下行利用率"]]}]}
-{"doc_id": "16615", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 13, "速率"]]}]}
+{"doc_id": "16615", "event_list": [{"trigger": ["IndexFault", 15, "低"], "argument": [["Index", 13, "速率"]]}]}
 {"doc_id": "16623", "event_list": [{"trigger": ["IndexFault", 51, "较高"], "argument": [["Index", 41, "E-RAB掉线率"]]}]}
 {"doc_id": "16636", "event_list": [{"trigger": ["IndexFault", 13, "不饱满"], "argument": [["Index", 5, "到达基站的数据量"]]}]}
 {"doc_id": "16675", "event_list": [{"trigger": ["IndexFault", 8, "较差"], "argument": [["Index", 6, "覆盖"]]}]}
@@ -475,18 +475,18 @@
 {"doc_id": "16688", "event_list": [{"trigger": ["IndexFault", 12, "增长"], "argument": [["Index", 0, " ERAB建立失败次数"]]}]}
 {"doc_id": "16699", "event_list": [{"trigger": ["IndexFault", 4, "不足"], "argument": [["Index", 0, "协商带宽"]]}]}
 {"doc_id": "16701", "event_list": [{"trigger": ["IndexFault", 3, "提高"], "argument": [["Index", 5, "LTE网络覆盖水平"]]}]}
-{"doc_id": "16703", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 27, "切换成功率"], ["Index", 94, "切换"]]}]}
-{"doc_id": "16705", "event_list": [{"trigger": ["IndexFault", 9, "下降"], "argument": [["Index", 0, " 下行MCS"]]}]}
+{"doc_id": "16703", "event_list": [{"trigger": ["IndexFault", 372, "差"], "argument": [["Index", 27, "切换成功率"], ["Index", 94, "切换"], ["Index", 140, "切换"], ["Index", 186, "切换"], ["Index", 232, "切换"], ["Index", 278, "切换"], ["Index", 324, "切换"], ["Index", 370, "切换"]]}]}
+{"doc_id": "16705", "event_list": [{"trigger": ["IndexFault", 9, "下降"], "argument": [["Index", 0, " "], ["Index", 1, "下行MCS"]]}]}
 {"doc_id": "16713", "event_list": [{"trigger": ["IndexFault", 16, "恶化"], "argument": [["Index", 0, "  PathLoss路损"]]}]}
 {"doc_id": "16729", "event_list": [{"trigger": ["IndexFault", 10, "达标"], "argument": [["Index", 3, "TxPower"]]}]}
 {"doc_id": "16734", "event_list": [{"trigger": ["IndexFault", 14, "不足"], "argument": [["Index", 10, "RB调度"]]}]}
-{"doc_id": "16738", "event_list": [{"trigger": ["IndexFault", 5, "达到"], "argument": [["Index", 0, " 失败占比"]]}]}
+{"doc_id": "16738", "event_list": [{"trigger": ["IndexFault", 5, "达到"], "argument": [["Index", 0, " "], ["Index", 1, "失败占比"]]}]}
 {"doc_id": "16739", "event_list": [{"trigger": ["IndexFault", 22, "增加"], "argument": [["Index", 14, "干扰小区数量"]]}]}
 {"doc_id": "16743", "event_list": [{"trigger": ["IndexFault", 26, "异常"], "argument": [["Index", 18, "E-RAB掉线率"]]}]}
-{"doc_id": "16755", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 3, "小区准备切换成功率"]]}]}
+{"doc_id": "16755", "event_list": [{"trigger": ["IndexFault", 12, "低"], "argument": [["Index", 3, "小区准备切换成功率"]]}]}
 {"doc_id": "16759", "event_list": [{"trigger": ["IndexFault", 9, "增加"], "argument": [["Index", 4, "SRB开销"]]}]}
 {"doc_id": "16763", "event_list": [{"trigger": ["IndexFault", 21, "下降"], "argument": [["Index", 9, "eNodeB间切换成功率"]]}]}
-{"doc_id": "16764", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 4, "VO掉话率"]]}]}
+{"doc_id": "16764", "event_list": [{"trigger": ["IndexFault", 9, "高"], "argument": [["Index", 4, "VO掉话率"]]}]}
 {"doc_id": "16771", "event_list": [{"trigger": ["IndexFault", 20, "较大"], "argument": [["Index", 2, "MCS=0的次数"], ["Index", 11, "MCS总次数的比重"]]}]}
 {"doc_id": "16775", "event_list": [{"trigger": ["IndexFault", 17, "波动异常"], "argument": [["Index", 11, "测试用户速率"]]}]}
 {"doc_id": "16778", "event_list": [{"trigger": ["IndexFault", 17, "不满"], "argument": [["Index", 13, "调度"]]}]}
@@ -497,45 +497,45 @@
 {"doc_id": "16810", "event_list": [{"trigger": ["IndexFault", 15, "过宽"], "argument": [["Index", 5, "卫星接收器的频段通带"]]}]}
 {"doc_id": "16819", "event_list": [{"trigger": ["IndexFault", 12, "很差"], "argument": [["Index", 6, "上行SINR"]]}]}
 {"doc_id": "16834", "event_list": [{"trigger": ["IndexFault", 38, "大于"], "argument": [["Index", 31, "控制项的配置值"]]}]}
-{"doc_id": "16840", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 19, "VoLTE上行QCI1丢包率"]]}]}
-{"doc_id": "16841", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 3, "网RSRQ"]]}]}
-{"doc_id": "16842", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 12, "切换成功率"]]}]}
+{"doc_id": "16840", "event_list": [{"trigger": ["IndexFault", 33, "高"], "argument": [["Index", 19, "VoLTE上行QCI1丢包率"]]}]}
+{"doc_id": "16841", "event_list": [{"trigger": ["IndexFault", 15, "高"], "argument": [["Index", 3, "网RSRQ"], ["Index", 12, "重建比"]]}]}
+{"doc_id": "16842", "event_list": [{"trigger": ["IndexFault", 17, "低"], "argument": [["Index", 12, "切换成功率"]]}]}
 {"doc_id": "16843", "event_list": [{"trigger": ["IndexFault", 29, "较少"], "argument": [["Index", 8, "RRC连接建立失败次数及RRC重发次数"]]}]}
 {"doc_id": "16844", "event_list": [{"trigger": ["IndexFault", 25, "很高"], "argument": [["Index", 2, "RRC建立成功率指标"], ["Index", 17, "单板CPU占用率"]]}]}
 {"doc_id": "16845", "event_list": [{"trigger": ["IndexFault", 13, "降低"], "argument": [["Index", 9, "激活时延"]]}]}
-{"doc_id": "16846", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 11, "速率"]]}]}
+{"doc_id": "16846", "event_list": [{"trigger": ["IndexFault", 13, "低"], "argument": [["Index", 11, "速率"]]}]}
 {"doc_id": "16847", "event_list": [{"trigger": ["IndexFault", 33, "恶化"], "argument": [["Index", 16, "TDD LTE小区掉话率和X2切换"]]}]}
 {"doc_id": "16848", "event_list": [{"trigger": ["IndexFault", 30, "下降"], "argument": [["Index", 24, "DL MCS"]]}]}
 {"doc_id": "16849", "event_list": [{"trigger": ["IndexFault", 11, "掉零"], "argument": [["Index", 9, "速率"]]}]}
 {"doc_id": "16850", "event_list": [{"trigger": ["IndexFault", 10, "掉零"], "argument": [["Index", 8, "速率"]]}]}
-{"doc_id": "16851", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "重叠覆盖度"]]}]}
+{"doc_id": "16851", "event_list": [{"trigger": ["IndexFault", 12, "低"], "argument": [["Index", 0, "重叠覆盖度"], ["Index", 8, "下载速率"]]}]}
 {"doc_id": "16852", "event_list": [{"trigger": ["IndexFault", 55, "恶化"], "argument": [["Index", 51, "指标"]]}]}
 {"doc_id": "16853", "event_list": [{"trigger": ["IndexFault", 22, "恶化"], "argument": [["Index", 6, "激活用户数"], ["Index", 15, "ERAB成功率"]]}]}
 {"doc_id": "16854", "event_list": [{"trigger": ["IndexFault", 17, "掉底"], "argument": [["Index", 0, "MCS"], ["Index", 13, "整体速率"]]}]}
 {"doc_id": "16855", "event_list": [{"trigger": ["IndexFault", 24, "负增益"], "argument": [["Index", 10, "IPRAN CA下载速率"]]}]}
 {"doc_id": "16856", "event_list": [{"trigger": ["IndexFault", 5, "下降"], "argument": [["Index", 0, "无线接通率"]]}]}
 {"doc_id": "16857", "event_list": [{"trigger": ["IndexFault", 12, "抬升"], "argument": [["Index", 0, "物理层流量"], ["Index", 9, "PRB"]]}]}
-{"doc_id": "16858", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 7, "站点切换入失败率"]]}]}
+{"doc_id": "16858", "event_list": [{"trigger": ["IndexFault", 15, "高"], "argument": [["Index", 7, "站点切换入失败率"]]}]}
 {"doc_id": "16859", "event_list": [{"trigger": ["IndexFault", 11, "抬升"], "argument": [["Index", 7, "终端功率"]]}]}
 {"doc_id": "16860", "event_list": [{"trigger": ["IndexFault", 31, "突增"], "argument": [["Index", 0, "最大用户数"], ["Index", 20, "RRC连接建立失败次数"]]}]}
 {"doc_id": "16861", "event_list": [{"trigger": ["IndexFault", 27, "升高"], "argument": [["Index", 6, "RRC.SetupFail.NoReply"]]}]}
-{"doc_id": "16862", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "MCS"]]}]}
-{"doc_id": "16863", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 22, "速率"]]}]}
+{"doc_id": "16862", "event_list": [{"trigger": ["IndexFault", 10, "高"], "argument": [["Index", 0, "MCS"], ["Index", 6, "重传误码"]]}]}
+{"doc_id": "16863", "event_list": [{"trigger": ["IndexFault", 24, "低"], "argument": [["Index", 22, "速率"]]}]}
 {"doc_id": "16865", "event_list": [{"trigger": ["IndexFault", 7, "异常高"], "argument": [["Index", 2, "小区丢包率"]]}]}
-{"doc_id": "16866", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "SgNB辅站站间变更成功率"]]}]}
+{"doc_id": "16866", "event_list": [{"trigger": ["IndexFault", 13, "低"], "argument": [["Index", 0, "SgNB辅站站间变更成功率"]]}]}
 {"doc_id": "16867", "event_list": [{"trigger": ["IndexFault", 18, "异常偏低"], "argument": [["Index", 0, "FTP服务器"], ["Index", 11, "ATU下载速率"]]}]}
 {"doc_id": "16868", "event_list": [{"trigger": ["IndexFault", 22, "下降"], "argument": [["Index", 4, "低阶CQI占比"], ["Index", 15, "平均CQI"]]}]}
 {"doc_id": "16869", "event_list": [{"trigger": ["IndexFault", 21, "偏低"], "argument": [["Index", 14, "NR站上行速率"]]}]}
-{"doc_id": "16870", "event_list": [{"trigger": ["IndexFault", 5, "下降"], "argument": [["Index", 1, "空口性能"], ["Index", 9, "体验"]]}]}
+{"doc_id": "16870", "event_list": [{"trigger": ["IndexFault", 11, "差"], "argument": [["Index", 1, "空口性能"], ["Index", 9, "体验"]]}]}
 {"doc_id": "16871", "event_list": [{"trigger": ["IndexFault", 23, "为0"], "argument": [["Index", 15, "RRC建立成功率"]]}]}
-{"doc_id": "16872", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 18, "切换成功率"]]}]}
-{"doc_id": "16873", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 4, "切换成功率"]]}]}
-{"doc_id": "16874", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 8, "上下行覆盖"]]}]}
+{"doc_id": "16872", "event_list": [{"trigger": ["IndexFault", 23, "低"], "argument": [["Index", 18, "切换成功率"]]}]}
+{"doc_id": "16873", "event_list": [{"trigger": ["IndexFault", 9, "低"], "argument": [["Index", 4, "切换成功率"]]}]}
+{"doc_id": "16874", "event_list": [{"trigger": ["IndexFault", 17, "差"], "argument": [["Index", 8, "上下行覆盖"], ["Index", 15, "切换"]]}]}
 {"doc_id": "16881", "event_list": [{"trigger": ["IndexFault", 47, "增加"], "argument": [["Index", 7, " “重建回源小区”统计值"], ["Index", 42, "接入失败率"]]}]}
 {"doc_id": "16883", "event_list": [{"trigger": ["IndexFault", 18, "升高"], "argument": [["Index", 13, "无线掉线率"]]}]}
-{"doc_id": "16885", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 57, "岛外站间距"]]}]}
-{"doc_id": "16887", "event_list": [{"trigger": ["IndexFault", 12, "良好"], "argument": [["Index", 5, "无线覆盖类指标"], ["Index", 15, "RSRP值和SINR值"], ["Index", 47, "上载速率"]]}]}
-{"doc_id": "16888", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 0, "上行PRB利用率"]]}]}
+{"doc_id": "16885", "event_list": [{"trigger": ["IndexFault", 74, "高"], "argument": [["Index", 57, "岛外站间距"], ["Index", 67, " 弱覆盖比例"]]}]}
+{"doc_id": "16887", "event_list": [{"trigger": ["IndexFault", 51, "低"], "argument": [["Index", 5, "无线覆盖类指标"], ["Index", 15, "RSRP值和SINR值"], ["Index", 47, "上载速率"]]}]}
+{"doc_id": "16888", "event_list": [{"trigger": ["IndexFault", 8, "高"], "argument": [["Index", 0, "上行PRB利用率"]]}]}
 {"doc_id": "16891", "event_list": [{"trigger": ["IndexFault", 31, "极少"], "argument": [["Index", 13, "RRCCONNREQ（MSG3）数量"]]}]}
 {"doc_id": "16892", "event_list": [{"trigger": ["IndexFault", 21, "偏低"], "argument": [["Index", 12, "站间同频切换成功率"]]}]}
 {"doc_id": "16901", "event_list": [{"trigger": ["IndexFault", 101, "较大"], "argument": [["Index", 99, "时延"]]}]}
@@ -543,15 +543,15 @@
 {"doc_id": "16913", "event_list": [{"trigger": ["IndexFault", 38, "恶化"], "argument": [["Index", 26, "S1 Sig的建立成功率"]]}]}
 {"doc_id": "16916", "event_list": [{"trigger": ["IndexFault", 38, "降至"], "argument": [["Index", 16, "HLW-1小区RSRP"], ["Index", 34, "RSRP"]]}]}
 {"doc_id": "16921", "event_list": [{"trigger": ["IndexFault", 61, "下降"], "argument": [["Index", 27, "PRB利用率"], ["Index", 57, "速率"]]}]}
-{"doc_id": "16923", "event_list": [{"trigger": ["IndexFault", 16, "偏高"], "argument": [["Index", 6, "终端侧下行丢包率"], ["Index", 24, "终端侧下行丢包率"]]}]}
+{"doc_id": "16923", "event_list": [{"trigger": ["IndexFault", 32, "高"], "argument": [["Index", 6, "终端侧下行丢包率"], ["Index", 24, "终端侧下行丢包率"]]}]}
 {"doc_id": "16940", "event_list": [{"trigger": ["IndexFault", 11, "超过"], "argument": [["Index", 0, "UtranCellID"]]}]}
 {"doc_id": "16946", "event_list": [{"trigger": ["IndexFault", 7, "大于"], "argument": [["Index", 0, "L2100信号"]]}]}
 {"doc_id": "16947", "event_list": [{"trigger": ["IndexFault", 25, "不达标"], "argument": [["Index", 19, "基站下载速率"]]}]}
 {"doc_id": "16961", "event_list": [{"trigger": ["IndexFault", 29, "为零"], "argument": [["Index", 14, "LTE U2000网管管理能力"]]}]}
-{"doc_id": "16970", "event_list": [{"trigger": ["IndexFault", 53, "达7"], "argument": [["Index", 25, "站点上行PRB利用率"], ["Index", 45, "下行PRB利用率"], ["Index", 63, "话务量"]]}]}
+{"doc_id": "16970", "event_list": [{"trigger": ["IndexFault", 66, "高"], "argument": [["Index", 25, "站点上行PRB利用率"], ["Index", 45, "下行PRB利用率"], ["Index", 63, "话务量"]]}]}
 {"doc_id": "16978", "event_list": [{"trigger": ["IndexFault", 42, "小于"], "argument": [["Index", 23, "IPCLK Server的传输时延"]]}]}
 {"doc_id": "16979", "event_list": [{"trigger": ["IndexFault", 60, "恶化"], "argument": [["Index", 25, " FDD小区E-RAB建立成功率"], ["Index", 44, " TDD小区E-RAB建立成功率"], ["State", 62, "严重"]]}]}
-{"doc_id": "16980", "event_list": [{"trigger": ["IndexFault", 0, ""], "argument": [["Index", 9, "RRU收光"]]}]}
+{"doc_id": "16980", "event_list": [{"trigger": ["IndexFault", 14, "弱"], "argument": [["Index", 9, "RRU收光"]]}]}
 {"doc_id": "15001", "event_list": [{"trigger": ["SoftHardwareFault", 0, ""], "argument": [["State", 2, "没有"]]}]}
 {"doc_id": "15002", "event_list": [{"trigger": ["SoftHardwareFault", 0, ""], "argument": [["Subject", 6, "手机"]]}]}
 {"doc_id": "15004", "event_list": [{"trigger": ["SoftHardwareFault", 6, "建立"], "argument": [["Subject", 3, "RRC"], ["State", 8, "失败"]]}]}

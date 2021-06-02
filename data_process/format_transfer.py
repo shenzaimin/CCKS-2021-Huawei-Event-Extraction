@@ -141,14 +141,14 @@ def valid_2_submit(original, target):
 
 
 if __name__ == '__main__':
-    # train_original_dir = '../data/train/train.json'
-    # valid_original_dir = '../data/dev/valid.json'
+    train_original_dir = '../data/train/train.json'
+    valid_original_dir = '../data/dev/valid.json'
     #
-    # train_fix_dir = '../data/train_fix/train.json'
-    # valid_fix_dir = '../data/dev_fix/valid.json'
+    train_fix_dir = '../data/train_fix/train.json'
+    valid_fix_dir = '../data/dev_fix/valid.json'
     # # os.mkdir('../data/train_fix')
     # # os.mkdir('../data/dev_fix')
-    # original_2_train(train_original_dir, train_fix_dir, valid_original_dir, valid_fix_dir)
-    submit_origin_dir = '../result.txt'
-    submit_fix_dir = '../result_fix.txt'
-    valid_2_submit(submit_origin_dir, submit_fix_dir)
+    original_2_train(train_original_dir, train_fix_dir, valid_original_dir, valid_fix_dir)
+    # submit_origin_dir = '../result.txt'
+    # submit_fix_dir = '../result_fix.txt'
+    # valid_2_submit(submit_origin_dir, submit_fix_dir)
