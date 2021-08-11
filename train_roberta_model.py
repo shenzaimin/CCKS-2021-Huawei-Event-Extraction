@@ -23,7 +23,7 @@ import copy
 from tqdm import tqdm
 
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 
 def set_seed(opt, seed):
@@ -435,6 +435,7 @@ def main():
     logging.info("\n")
     logging.info("Loading the datasets...")
     trains_add_devs = reader.read_txt(conf.train_file, conf.train_num, opt.type)
+    # random.shuffle(trains_add_devs)
     trains = trains_add_devs[:int(0.8*len(trains_add_devs))]
     devs = trains_add_devs[int(0.8*len(trains_add_devs)):]
     print('【trains: ' + str(len(trains)) + ' devs: ' + str(len(devs)) + '】')
@@ -509,10 +510,11 @@ def main():
         epoch_loss = 0
         start_time = time.time()
         model.zero_grad()
-
+        print('{} optim: {}'.format(i, optimizer.param_groups[0]['lr']))
         for step, index in enumerate(np.random.permutation(len(train_batches))):  # disorder the train batches
             model.train()
-            scheduler.step()
+            # scheduler.step()
+            # print('{} optim: {}'.format(i, optimizer.param_groups[0]['lr']))
             input_ids, input_seq_lens, annotation_mask, labels = train_batches[index]
             input_masks = input_ids.gt(0)
             # update loss
@@ -528,9 +530,11 @@ def main():
                 #print(loss)
                 nn.utils.clip_grad_norm_(parameters=model.parameters(), max_norm=conf.clip_grad)
                 optimizer.step()
+                scheduler.step()
                 model.zero_grad()
+
         end_time = time.time()
-        logging.info("Epoch %d: %.5f, Time is %.2fs" % (i, epoch_loss / step, end_time - start_time))
+        logging.info("Epoch %d: %.5f, Time is %.2fs" % (i, epoch_loss / (step+1), end_time - start_time))
 
         model.eval()
         with torch.no_grad():
@@ -590,7 +594,7 @@ def main_predict():
     cls_dict = dict()
     for index, row in tqdm(cls_out.iterrows()):
         ids = str(row["id"])
-        for tp in ['IF', 'SHF', 'CD', 'Ch', 'SF', 'EF', 'SM', 'Op']:
+        for tp in ['IF', 'SHF', 'CD', 'Ch', 'SF', 'SM', 'Op']:
             if row[tp] == 1:
                 data_type = type_map[tp]
                 if not ids in cls_dict.keys():
@@ -605,7 +609,7 @@ def main_predict():
         # read tests
         logging.info("\n")
         logging.info("Loading the datasets...")
-        trains = reader.read_txt(conf.train_file, conf.train_num, "")
+        trains = reader.read_txt(conf.train_file, conf.train_num, type_map[suffix])
         all_tests = reader.read_test_txt(conf.test_file, conf.train_num)
         for idx in range(len(all_tests)):
             # 给对象打分类标签
@@ -628,7 +632,7 @@ def main_predict():
         cfig.label2idx = conf.label2idx
         cfig.label_size = conf.label_size
         cfig.idx2labels = conf.idx2labels
-        model_folder = conf.model_folder
+        model_folder = conf.model_folder + "_" + suffix + '_1_1'
         model_name = model_folder + "/final_bert_crf"
         # model = BertCRF.from_pretrained(conf.bert_model_dir, config=cfig)
         model = BertCRF(cfig=cfig)
@@ -663,14 +667,15 @@ def main_predict():
                                 tests[idx].prediction[i + 1].startswith("O"):
                             value = tests[idx].content[i]
                             role = tests[idx].prediction[i][2:]
-                            sample = {"id": qids, "events": [{"type": data_type,
-                                                              "mentions": [
-                                                                  {"word": value, "span": [start, start + 1],
-                                                                   "role": role
-                                                                   }]}]}
-                            lst.append(sample)
+                            if role == "trigger":
+                                sample = {"id": qids, "events": [{"type": data_type,
+                                                                  "mentions": [
+                                                                      {"word": value, "span": [start, start + 1],
+                                                                       "role": role
+                                                                       }]}]}
+                                lst.append(sample)
 
-                            start = -1
+                                start = -1
                 if tests[idx].prediction[i].startswith("E-") and start != -1:
                     # if i != len(tests[idx].prediction) - 1 and predict_dict['query'][i+1] == '之':  # 修正模型对于TV类别预测的不恰当分割
                     #     continue

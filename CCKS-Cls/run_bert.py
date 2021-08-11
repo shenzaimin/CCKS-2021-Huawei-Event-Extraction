@@ -124,7 +124,7 @@ def run_train(args, data_type = None):
     logger.info("  Gradient Accumulation steps = %d", args.gradient_accumulation_steps)
     logger.info("  Total optimization steps = %d", t_total)
 
-    trainer = Trainer(args= args,model=model,logger=logger,criterion=CrossEntropy(),optimizer=optimizer,
+    trainer = Trainer(args= args,model=model,logger=logger,criterion=BCEWithLogLoss(),optimizer=optimizer,
                       scheduler=scheduler,early_stopping=None,training_monitor=train_monitor,
                       model_checkpoint=model_checkpoint,
                       batch_metrics=[AccuracyThresh(thresh=0.5)],
@@ -172,16 +172,16 @@ def run_test(args):
     #print(result.size())
     print(len(result))
     #pred = torch.max(pred, dim = -1)[1]
-    for i in range(len(result)):
-        pred = -1
-        for j in range(len(result[0])):
-            if pred < result[i][j]:
-                pred = result[i][j]
-        for j in range(len(result[0])):
-            if result[i][j] != pred:
-                result[i][j] = 0
-            else:
-                result[i][j] = 1
+    # for i in range(len(result)):
+    #     pred = -1
+    #     for j in range(len(result[0])):
+    #         if pred < result[i][j]:
+    #             pred = result[i][j]
+    #     for j in range(len(result[0])):
+    #         if result[i][j] != pred:
+    #             result[i][j] = 0
+    #         else:
+    #             result[i][j] = 1
     ids = np.array(ids)
     df1 = pd.DataFrame(ids,index=None)
     df2 = pd.DataFrame(result,index=None)

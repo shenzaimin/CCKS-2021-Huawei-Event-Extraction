@@ -5,7 +5,7 @@ import torch
 __call__ = ['CrossEntropy','BCEWithLogLoss']
 
 class CrossEntropy(object):
-    def __init__(self):
+    def X__init__(self):
         self.loss_f = CrossEntropyLoss()
 
     def __call__(self, output, target):

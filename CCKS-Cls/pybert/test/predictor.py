@@ -36,8 +36,8 @@ class Predictor(object):
             else:
                 all_logits = np.concatenate([all_logits,logits.detach().cpu().numpy()],axis = 0)
             pbar(step=step)
-        if 'cuda' in str(self.device):
-            torch.cuda.empty_cache()
+        # if 'cuda' in str(self.device):
+        #     torch.cuda.empty_cache()
         return all_logits
 
 

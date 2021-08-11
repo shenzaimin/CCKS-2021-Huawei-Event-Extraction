@@ -34,6 +34,7 @@ def original_2_train(original_dir_1, target_dir_1, original_dir_2, target_dir_2)
         for event in line["event_list"]:
             trigger = event["trigger"]
             arguments = event["argument"]
+            arguments.append(trigger)
             new_event = dict()
             type = type_map[trigger[0]]
             new_event["type"] = type
@@ -74,28 +75,37 @@ def original_2_train(original_dir_1, target_dir_1, original_dir_2, target_dir_2)
                         else:
                             mention["span"] = [start_span, end_span]
                             mention["role"] = argument[0]
+                            if mention["role"] in type_map.keys():
+                                mention["role"] = "trigger"
                             mentions.append(mention)
                             print(f'slide distance: {slide_dist}')
                     else:
                         mention["span"] = [start_span, end_span]
                         mention["role"] = argument[0]
+                        if mention["role"] in type_map.keys():
+                            mention["role"] = "trigger"
                         mentions.append(mention)
                         print(f'slide distance: {slide_dist}')
 
                 else:
                     mention["span"] = [start_span, end_span]
                     mention["role"] = argument[0]
+                    if mention["role"] in type_map.keys():
+                        mention["role"] = "trigger"
                     mentions.append(mention)
             # 加上trigger实体
-            mention = dict()
-            mention["word"] = trigger[2]
-            start = trigger[1]
-            end = trigger[1] + len(trigger[2])
-            mention["span"] = [start, end]
-            mention["role"] = "trigger"
-            mentions.append(mention)
+            # mention = dict()
+            # mention["word"] = trigger[2]
+            # start = trigger[1]
+            # end = trigger[1] + len(trigger[2])
+            # mention["span"] = [start, end]
+            # mention["role"] = "trigger"
+            # mentions.append(mention)
             new_event["mentions"] = mentions
             new_line["events"].append(new_event)
+            # if words_original[start: end] != mention["word"]:
+            #     print(
+            #         f'*trigger*{line["doc_id"]}-[WRONG]-{words_original[start: end]}-[right]-{mention["word"]}-{start}')
         json_obj = json.dumps(new_line, ensure_ascii=False)
         out_file_1.write(json_obj+'\n')
 
@@ -141,14 +151,14 @@ def valid_2_submit(original, target):
 
 
 if __name__ == '__main__':
-    train_original_dir = '../data/train/train.json'
-    valid_original_dir = '../data/dev/valid.json'
+    # train_original_dir = '../data/train/train.json'
+    # valid_original_dir = '../data/dev/valid.json'
     #
-    train_fix_dir = '../data/train_fix/train.json'
-    valid_fix_dir = '../data/dev_fix/valid.json'
+    # train_fix_dir = '../data/train_fix/train.json'
+    # valid_fix_dir = '../data/dev_fix/valid.json'
     # # os.mkdir('../data/train_fix')
     # # os.mkdir('../data/dev_fix')
-    original_2_train(train_original_dir, train_fix_dir, valid_original_dir, valid_fix_dir)
-    # submit_origin_dir = '../result.txt'
-    # submit_fix_dir = '../result_fix.txt'
-    # valid_2_submit(submit_origin_dir, submit_fix_dir)
+    # original_2_train(train_original_dir, train_fix_dir, valid_original_dir, valid_fix_dir)
+    submit_origin_dir = '../result.txt'
+    submit_fix_dir = '../result_fix.txt'
+    valid_2_submit(submit_origin_dir, submit_fix_dir)
